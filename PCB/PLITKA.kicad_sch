@@ -370,336 +370,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -2783,7 +2453,7 @@
 	)
 	(text "HOLES"
 		(exclude_from_sim no)
-		(at 191.77 19.05 0)
+		(at 191.516 21.844 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2791,17 +2461,6 @@
 			(justify right bottom)
 		)
 		(uuid "6a8d866f-7340-4c7a-a26e-c8b95520ef38")
-	)
-	(text "LED"
-		(exclude_from_sim no)
-		(at 192.532 56.896 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-			(justify right bottom)
-		)
-		(uuid "7288880e-88f1-4b1f-a17d-d10e66aa53a5")
 	)
 	(text "MCU"
 		(exclude_from_sim no)
@@ -2816,7 +2475,7 @@
 	)
 	(text "RESET"
 		(exclude_from_sim no)
-		(at 191.008 88.392 0)
+		(at 191.008 76.708 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -3010,6 +2669,10 @@
 		(uuid "14fe1642-edf5-468d-ab8c-83fa8635e82b")
 	)
 	(no_connect
+		(at 25.4 60.96)
+		(uuid "287afa22-f643-40ef-ab82-84f9d87f0cd1")
+	)
+	(no_connect
 		(at 60.96 58.42)
 		(uuid "4343b8ea-a0fb-4bc0-9d70-4583af9cf2f9")
 	)
@@ -3026,8 +2689,16 @@
 		(uuid "5796774c-ec21-45b9-a18c-d89cb4a62a8d")
 	)
 	(no_connect
+		(at 25.4 63.5)
+		(uuid "799e6a28-c356-4bfa-8641-5c6cd287f6ae")
+	)
+	(no_connect
 		(at 60.96 60.96)
 		(uuid "7db43c4f-558d-4efe-ba05-daa14ef7035f")
+	)
+	(no_connect
+		(at 25.4 58.42)
+		(uuid "8b18c354-5af8-4b00-9e6e-e28e36fe7988")
 	)
 	(no_connect
 		(at 25.4 48.26)
@@ -3205,7 +2876,7 @@
 	)
 	(polyline
 		(pts
-			(xy 153.924 51.816) (xy 197.866 51.816)
+			(xy 154.94 60.96) (xy 198.12 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3315,16 +2986,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 59.69) (xy 184.658 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf1fbdc-7468-44c0-a511-599f976d2e51")
-	)
-	(wire
-		(pts
 			(xy 79.502 122.428) (xy 79.502 120.142)
 		)
 		(stroke
@@ -3402,16 +3063,6 @@
 			(type default)
 		)
 		(uuid "7d2623e9-ae6b-4d46-8b44-3f8d935e3d87")
-	)
-	(polyline
-		(pts
-			(xy 154.178 81.28) (xy 197.866 81.28)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "7e884c0b-3215-466b-81ea-b4cd24f92d43")
 	)
 	(wire
 		(pts
@@ -3505,16 +3156,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 74.93) (xy 174.498 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5acfc13-660b-4475-8069-b28733a7b5eb")
-	)
-	(wire
-		(pts
 			(xy 105.41 30.226) (xy 105.41 48.514)
 		)
 		(stroke
@@ -3575,16 +3216,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.436 74.93) (xy 184.15 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd8c4ef8-c0b7-4ad2-8997-d8faefd4e8f0")
-	)
-	(wire
-		(pts
 			(xy 99.568 95.25) (xy 110.49 95.25)
 		)
 		(stroke
@@ -3615,16 +3246,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.038 59.69) (xy 175.006 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8b9676b-221e-4cd7-863c-5d1cf75e0f5a")
-	)
-	(wire
-		(pts
 			(xy 138.176 30.226) (xy 138.176 48.514)
 		)
 		(stroke
@@ -3652,16 +3273,6 @@
 			(type default)
 		)
 		(uuid "d0ccf529-3ad5-4749-9211-c6395e785b26")
-	)
-	(wire
-		(pts
-			(xy 186.436 67.31) (xy 184.404 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1391bb1-3bad-452b-8a27-920148a22971")
 	)
 	(wire
 		(pts
@@ -3733,16 +3344,6 @@
 		)
 		(uuid "eca38f2e-6366-4625-b8be-97ae04cb8626")
 	)
-	(wire
-		(pts
-			(xy 176.784 67.31) (xy 174.752 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed4682aa-5710-4438-810d-939bc55b81c3")
-	)
 	(polyline
 		(pts
 			(xy 153.924 12.192) (xy 153.924 103.886)
@@ -3793,16 +3394,6 @@
 		)
 		(uuid "082b612d-2c38-4b1d-b289-5af2c2c73a19")
 	)
-	(label "PL3"
-		(at 175.768 74.93 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "47248fef-8650-4b9f-a0fd-0b34bca3bdcd")
-	)
 	(label "PAD1"
 		(at 43.942 116.078 0)
 		(effects
@@ -3812,26 +3403,6 @@
 			(justify left bottom)
 		)
 		(uuid "9f9f75e8-5c71-4811-a30a-aee9f537e7ae")
-	)
-	(label "PL1"
-		(at 176.022 59.69 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c9519dbb-7fda-4b2d-904a-05f32731be38")
-	)
-	(label "PL2"
-		(at 176.022 67.31 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dc4d88b9-34c5-41bf-b3b1-2fac278e5dd5")
 	)
 	(global_label "col4"
 		(shape input)
@@ -3977,54 +3548,6 @@
 			)
 		)
 	)
-	(global_label "LED3"
-		(shape input)
-		(at 166.878 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "334c67f1-6f94-4a6e-b682-1be022b2dd1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.8082 74.8506 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LED1"
-		(shape input)
-		(at 167.386 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "36658c9b-c292-49c9-a1d8-94d21aebadb6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.3162 59.6106 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "row1"
 		(shape input)
 		(at 91.694 58.674 180)
@@ -4086,30 +3609,6 @@
 		(uuid "5a381129-f1a1-4072-a398-638e558bc44f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 18.5117 71.0406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LED2"
-		(shape input)
-		(at 25.4 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6a3a9604-e1d4-49bc-a9fc-ce2f9a7255d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.3302 60.8806 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4193,30 +3692,6 @@
 			)
 		)
 	)
-	(global_label "LED3"
-		(shape input)
-		(at 25.4 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e473fc7-69a4-417b-ac16-c844c99b63dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.3302 63.4206 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "col2"
 		(shape input)
 		(at 60.96 68.58 0)
@@ -4241,33 +3716,9 @@
 			)
 		)
 	)
-	(global_label "LED1"
-		(shape input)
-		(at 25.4 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b351138f-c54d-4626-955e-d86ccb154148")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.3302 58.3406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "RESET"
 		(shape input)
-		(at 180.34 96.774 0)
+		(at 180.34 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4277,7 +3728,7 @@
 		)
 		(uuid "c3d0e2bd-bcf3-4b78-87f4-51bf46bfd7e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.4983 96.6946 0)
+			(at 188.4983 85.0106 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4433,33 +3884,9 @@
 			)
 		)
 	)
-	(global_label "LED2"
-		(shape input)
-		(at 167.132 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fc81b105-8aac-4d5b-b741-152efc0ad06f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.0622 67.2306 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 96.774 270)
+		(at 170.18 85.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4470,7 +3897,7 @@
 		(fields_autoplaced yes)
 		(uuid "01656841-06b3-4f44-b363-d6bec19fa6e4")
 		(property "Reference" "#PWR0105"
-			(at 163.83 96.774 0)
+			(at 163.83 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4481,7 +3908,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.862 96.7739 90)
+			(at 165.862 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4492,7 +3919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 96.774 0)
+			(at 170.18 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4503,7 +3930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 96.774 0)
+			(at 170.18 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4514,7 +3941,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 96.774 0)
+			(at 170.18 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4537,7 +3964,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 161.544 31.496 0)
+		(at 161.29 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4548,7 +3975,7 @@
 		(fields_autoplaced yes)
 		(uuid "052312c8-7082-4730-8fdc-be45b9c7b119")
 		(property "Reference" "MH3"
-			(at 164.592 30.2259 0)
+			(at 164.338 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4559,7 +3986,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 164.592 32.7659 0)
+			(at 164.338 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4570,7 +3997,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 161.544 31.496 0)
+			(at 161.29 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4581,7 +4008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.544 31.496 0)
+			(at 161.29 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4592,7 +4019,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.544 31.496 0)
+			(at 161.29 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4767,85 +4194,6 @@
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 171.196 59.69 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "10337a72-6cd6-4d53-b662-5235f1ee9aae")
-		(property "Reference" "L1"
-			(at 172.466 56.134 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 172.7835 54.356 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PLITKA:LED_3mm_reversible"
-			(at 171.196 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.196 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 171.196 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca3a3a47-c47e-4923-9da9-1f34f111c063")
-		)
-		(pin "2"
-			(uuid "4915eb2b-bcdb-40ac-a3e1-e5a3654be8d4")
-		)
-		(instances
-			(project "PLITKA"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -5084,161 +4432,6 @@
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1ad55749-0f90-4694-89a5-42acdeee6c2c")
-		(property "Reference" "#PWR0111"
-			(at 186.69 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.008 61.214 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e59e1b48-8a7e-4ef3-b6da-9c862f36ad34")
-		)
-		(instances
-			(project "PLITKA"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 170.688 74.93 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1aea102e-8455-467f-a6e1-b7dc367e5a10")
-		(property "Reference" "L3"
-			(at 171.958 71.374 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 172.2755 69.596 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PLITKA:LED_3mm_reversible"
-			(at 170.688 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.688 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 170.688 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b41b887-bab4-4a68-908c-9337a261be27")
-		)
-		(pin "2"
-			(uuid "16dfb13c-8ca7-4acb-80bc-4ceea6e29c76")
-		)
-		(instances
-			(project "PLITKA"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -5732,86 +4925,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 180.594 67.31 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "364540f7-0c58-4618-8ce3-bea6d054cb4e")
-		(property "Reference" "R2"
-			(at 180.594 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 180.594 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PLITKA:R_1206_DoubleSided"
-			(at 180.594 69.088 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.594 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 180.594 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76ad413c-9d8b-4f2a-aff4-91ae63c260ad")
-		)
-		(pin "2"
-			(uuid "3e6d16df-9d79-496a-9ffc-ed0bed1270dc")
-		)
-		(instances
-			(project "PLITKA"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 161.544 25.146 0)
+		(at 161.29 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5822,7 +4937,7 @@
 		(fields_autoplaced yes)
 		(uuid "43035051-17df-4ee6-931b-905cd39262eb")
 		(property "Reference" "MH2"
-			(at 164.592 23.8759 0)
+			(at 164.338 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5833,7 +4948,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 164.592 26.4159 0)
+			(at 164.338 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5844,7 +4959,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 161.544 25.146 0)
+			(at 161.29 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5855,7 +4970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.544 25.146 0)
+			(at 161.29 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5866,7 +4981,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.544 25.146 0)
+			(at 161.29 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5968,7 +5083,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 161.544 18.796 0)
+		(at 161.29 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5979,7 +5094,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dd64f6f-fadd-49ee-8597-dc3eafed6409")
 		(property "Reference" "MH1"
-			(at 164.846 17.5259 0)
+			(at 164.592 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5990,7 +5105,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 164.846 20.0659 0)
+			(at 164.592 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6001,7 +5116,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 161.544 18.796 0)
+			(at 161.29 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6012,7 +5127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.544 18.796 0)
+			(at 161.29 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6023,7 +5138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.544 18.796 0)
+			(at 161.29 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6207,7 +5322,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 175.26 96.774 0)
+		(at 175.26 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6218,7 +5333,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b6b1593-51f1-40c8-89c3-442c47f55797")
 		(property "Reference" "RSW1"
-			(at 175.26 88.9 0)
+			(at 175.26 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6228,7 +5343,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 175.26 91.44 0)
+			(at 175.26 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6238,7 +5353,7 @@
 			)
 		)
 		(property "Footprint" "PLITKA:ResetSW"
-			(at 175.26 91.694 0)
+			(at 175.26 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6249,7 +5364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 91.694 0)
+			(at 175.26 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6260,7 +5375,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 96.774 0)
+			(at 175.26 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6528,86 +5643,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 180.34 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64cc91b5-5b40-4609-b718-314104f73fc2")
-		(property "Reference" "R3"
-			(at 180.34 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 180.34 74.93 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PLITKA:R_1206_DoubleSided"
-			(at 180.34 76.708 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97d641c4-26f5-454c-b6e0-7b7994430be6")
-		)
-		(pin "2"
-			(uuid "2e828beb-5929-4499-9b16-c321ee215207")
-		)
-		(instances
-			(project "PLITKA"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 161.544 44.704 0)
+		(at 161.29 47.498 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6618,7 +5655,7 @@
 		(fields_autoplaced yes)
 		(uuid "71703110-63b8-4119-83da-759c099f6741")
 		(property "Reference" "MH5"
-			(at 164.592 43.4339 0)
+			(at 164.338 46.2279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6629,7 +5666,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 164.592 45.9739 0)
+			(at 164.338 48.7679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6640,7 +5677,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 161.544 44.704 0)
+			(at 161.29 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6651,7 +5688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.544 44.704 0)
+			(at 161.29 47.498 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6662,7 +5699,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.544 44.704 0)
+			(at 161.29 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7159,7 +6196,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 161.544 38.1 0)
+		(at 161.29 40.894 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7170,7 +6207,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b8a12ea-b0d0-471c-a5bc-201dbda0b5fd")
 		(property "Reference" "MH4"
-			(at 164.592 36.8299 0)
+			(at 164.338 39.6239 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7181,7 +6218,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 164.592 39.3699 0)
+			(at 164.338 42.1639 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7192,7 +6229,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
-			(at 161.544 38.1 0)
+			(at 161.29 40.894 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7203,7 +6240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.544 38.1 0)
+			(at 161.29 40.894 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7214,7 +6251,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.544 38.1 0)
+			(at 161.29 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7628,83 +6665,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 186.436 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "88789455-3114-489b-8c74-f844ff1e4ba7")
-		(property "Reference" "#PWR0109"
-			(at 186.436 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 188.976 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.436 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.436 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 186.436 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9bc91ea8-af56-4bcf-ad84-b0307adf796c")
-		)
-		(instances
-			(project "PLITKA"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PLITKA:MX_SW_HS")
 		(at 97.028 32.766 0)
 		(unit 1)
@@ -7941,85 +6901,6 @@
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 170.942 67.31 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9f29d43b-4190-439c-bd34-32102a2f9066")
-		(property "Reference" "L2"
-			(at 172.212 63.754 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 172.5295 61.976 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PLITKA:LED_3mm_reversible"
-			(at 170.942 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.942 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 170.942 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d1c2044-f824-4ddb-ae4f-c55dccd8e44a")
-		)
-		(pin "2"
-			(uuid "0b429b08-2a6d-4570-9767-dc9676bc0a2f")
-		)
-		(instances
-			(project "PLITKA"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -8504,83 +7385,6 @@
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.436 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b78d8737-d04a-41bf-a2f7-6af02cd1dbb1")
-		(property "Reference" "#PWR0110"
-			(at 186.436 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 188.976 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.436 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.436 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 186.436 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33c52fbe-18d9-4bb9-b43d-1916996692bb")
-		)
-		(instances
-			(project "PLITKA"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -9693,84 +8497,6 @@
 			(project "PLITKA"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 180.848 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fa68a432-8d38-4df0-a611-3a441041383c")
-		(property "Reference" "R1"
-			(at 180.848 57.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 180.848 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PLITKA:R_1206_DoubleSided"
-			(at 180.848 61.468 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.848 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 180.848 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17527481-7f0e-4bd6-acb0-300712165146")
-		)
-		(pin "2"
-			(uuid "d6d1ff5f-d2ca-4ba5-bfee-e4805e109dc6")
-		)
-		(instances
-			(project "PLITKA"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "R1")
 					(unit 1)
 				)
 			)
