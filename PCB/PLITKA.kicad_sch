@@ -5,10 +5,10 @@
 	(uuid "231ead31-262f-44fe-a25c-f58d2465dcca")
 	(paper "A5")
 	(title_block
-		(title "PLITKA split keyboard")
-		(date "2022-05-19")
-		(rev "0.2")
-		(comment 1 "Author: GEIST")
+		(title "PLITKA keyboard")
+		(date "12/06/2026")
+		(rev "0.1")
+		(comment 1 "Author: rawrex")
 	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
