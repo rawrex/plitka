@@ -697,7 +697,7 @@
 					)
 				)
 			)
-			(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+			(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4083,7 +4083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 118.872 51.054 0)
 			(hide yes)
 			(show_name no)
@@ -4267,7 +4267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 140.716 32.766 0)
 			(hide yes)
 			(show_name no)
@@ -4736,7 +4736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 129.794 51.054 0)
 			(hide yes)
 			(show_name no)
@@ -4920,7 +4920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 118.872 32.766 0)
 			(hide yes)
 			(show_name no)
@@ -6021,7 +6021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 118.872 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6170,7 +6170,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 73.66 53.34 90)
+			(at 72.136 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6256,7 +6256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 97.028 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6440,7 +6440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 129.794 32.766 0)
 			(hide yes)
 			(show_name no)
@@ -6586,8 +6586,8 @@
 				)
 			)
 		)
-		(property "Value" "VBAT"
-			(at 74.168 45.72 90)
+		(property "Value" "+BATT"
+			(at 72.136 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6673,7 +6673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 107.95 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6832,7 +6832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 97.028 32.766 0)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 140.716 51.054 0)
 			(hide yes)
 			(show_name no)
@@ -7096,7 +7096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 140.716 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7176,7 +7176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 97.028 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7360,7 +7360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7440,7 +7440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 107.95 51.054 0)
 			(hide yes)
 			(show_name no)
@@ -7615,7 +7615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 48.26 90)
+			(at 72.39 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7792,7 +7792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 129.794 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7852,7 +7852,7 @@
 		(dnp no)
 		(uuid "cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(property "Reference" "U1"
-			(at 33.02 38.862 0)
+			(at 32.258 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8302,7 +8302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 107.95 32.766 0)
 			(hide yes)
 			(show_name no)
@@ -8382,7 +8382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 97.028 51.054 0)
 			(hide yes)
 			(show_name no)

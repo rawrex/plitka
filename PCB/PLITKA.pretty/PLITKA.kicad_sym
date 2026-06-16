@@ -570,7 +570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+		(property "Footprint" "PLITKA:Kailh_socket_PG1350_optional_reversible"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
