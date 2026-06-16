@@ -861,7 +861,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -12.192 23.876 0)
+				(at -12.192 20.828 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -871,7 +871,7 @@
 				)
 			)
 			(property "Value" "nice!nano"
-				(at -7.366 21.336 0)
+				(at -7.366 18.288 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -881,7 +881,7 @@
 				)
 			)
 			(property "Footprint" "PLITKA:nice_nano"
-				(at -0.508 -28.448 0)
+				(at 0.254 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -914,8 +914,8 @@
 			)
 			(symbol "nice_nano_0_1"
 				(rectangle
-					(start -12.7 19.05)
-					(end 12.7 -25.4)
+					(start -12.7 16.51)
+					(end 12.7 -16.51)
 					(stroke
 						(width 0)
 						(type default)
@@ -926,24 +926,6 @@
 				)
 			)
 			(symbol "nice_nano_1_1"
-				(pin power_in line
-					(at -17.78 16.51 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at -17.78 13.97 0)
 					(length 5.08)
@@ -954,7 +936,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -972,7 +954,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -990,7 +972,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1008,7 +990,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1026,7 +1008,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1044,7 +1026,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1062,7 +1044,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1080,7 +1062,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1098,7 +1080,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1116,7 +1098,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1134,7 +1116,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1152,25 +1134,7 @@
 							)
 						)
 					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 17.78 16.51 180)
-					(length 5.08)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1188,7 +1152,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1206,7 +1170,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1224,7 +1188,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1242,7 +1206,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1260,7 +1224,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1278,7 +1242,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1296,7 +1260,7 @@
 							)
 						)
 					)
-					(number "21"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1314,7 +1278,7 @@
 							)
 						)
 					)
-					(number "22"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1332,7 +1296,7 @@
 							)
 						)
 					)
-					(number "23"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1350,7 +1314,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1368,7 +1332,7 @@
 							)
 						)
 					)
-					(number "25"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1386,61 +1350,7 @@
 							)
 						)
 					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -17.78 0)
-					(length 5.08)
-					(name "P1.01"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -20.32 0)
-					(length 5.08)
-					(name "P1.02"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -22.86 0)
-					(length 5.08)
-					(name "P1.07"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2839,16 +2749,8 @@
 		(uuid "44a44b56-4fb7-4980-9845-db8bca8e1b02")
 	)
 	(no_connect
-		(at 26.67 82.55)
-		(uuid "4da5edbc-a288-4260-bffd-0821693d3086")
-	)
-	(no_connect
 		(at 66.294 117.602)
 		(uuid "5796774c-ec21-45b9-a18c-d89cb4a62a8d")
-	)
-	(no_connect
-		(at 26.67 80.01)
-		(uuid "7956bcf4-306c-4f2b-8bd0-8260906e6005")
 	)
 	(no_connect
 		(at 62.23 60.96)
@@ -2867,24 +2769,12 @@
 		(uuid "ad71d5d9-6d2d-4b24-ad47-5283e103141d")
 	)
 	(no_connect
-		(at 26.67 43.18)
-		(uuid "b56e2d4b-b4a4-4968-9be9-a9ce35625391")
-	)
-	(no_connect
-		(at 62.23 43.18)
-		(uuid "c6ac5405-df48-4d2a-9f51-93413e71c1fa")
-	)
-	(no_connect
 		(at 26.67 53.34)
 		(uuid "ce7709d7-3c07-4f3a-8ab1-6ace62791d0c")
 	)
 	(no_connect
 		(at 26.67 48.26)
 		(uuid "f24163f9-297a-4c7f-bea5-af2b51e95367")
-	)
-	(no_connect
-		(at 26.67 77.47)
-		(uuid "f5ab90d2-543a-4cb3-8715-2c6011c24396")
 	)
 	(wire
 		(pts
@@ -3506,16 +3396,6 @@
 		)
 		(uuid "f927d46c-63df-4fc8-bc75-3ed69e9e092a")
 	)
-	(wire
-		(pts
-			(xy 60.96 50.8) (xy 62.23 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd2fe0b2-3476-443f-9828-6a7a0c7b8f1b")
-	)
 	(label "PAD2"
 		(at 34.29 123.952 0)
 		(effects
@@ -3754,7 +3634,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 60.96 50.8 0)
+		(at 62.23 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3764,7 +3644,7 @@
 		)
 		(uuid "78e09f8e-c3bc-4f43-92f7-52914fb1180c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.1183 50.7206 0)
+			(at 70.3883 50.7206 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6290,7 +6170,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 72.136 53.34 0)
+			(at 73.66 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6706,8 +6586,8 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 72.136 45.72 0)
+		(property "Value" "VBAT"
+			(at 74.168 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7735,7 +7615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 48.26 0)
+			(at 73.66 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7972,7 +7852,7 @@
 		(dnp no)
 		(uuid "cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(property "Reference" "U1"
-			(at 32.258 35.814 0)
+			(at 33.02 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7982,7 +7862,7 @@
 			)
 		)
 		(property "Value" "nice!nano"
-			(at 37.084 38.354 0)
+			(at 37.084 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7992,7 +7872,7 @@
 			)
 		)
 		(property "Footprint" "PLITKA:nice_nano"
-			(at 43.942 88.138 0)
+			(at 44.704 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8023,9 +7903,6 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "86fc8d26-3378-4fab-89df-5413f6a51ffc")
-		)
 		(pin "10"
 			(uuid "88874d58-d5b3-4521-9857-09160fdd85dc")
 		)
@@ -8038,13 +7915,10 @@
 		(pin "23"
 			(uuid "9142d486-e32b-4796-a096-75df121dabe4")
 		)
-		(pin "14"
-			(uuid "86710698-fe04-4974-a288-a6755bed83ea")
-		)
-		(pin "26"
+		(pin "1"
 			(uuid "77e86716-e30e-4eaa-86cb-8fabac29db1e")
 		)
-		(pin "25"
+		(pin "13"
 			(uuid "6fe4240e-9f2b-4a2a-9d53-90cab6dd4fef")
 		)
 		(pin "17"
@@ -8095,20 +7969,11 @@
 		(pin "9"
 			(uuid "f55b5ac1-c150-406f-8702-f3742b0d594b")
 		)
-		(pin "13"
+		(pin "14"
 			(uuid "37823c83-3066-484d-91bb-d012e838049e")
 		)
 		(pin "16"
 			(uuid "102692ba-7b83-47cd-9fc0-33e83ace8652")
-		)
-		(pin "28"
-			(uuid "9a2c5621-7a6b-448e-a47a-7bc24f4211fd")
-		)
-		(pin "29"
-			(uuid "b973bf61-788b-449d-84d1-aef6bb10f4fd")
-		)
-		(pin "27"
-			(uuid "21e62e9d-53c4-4c2b-8d2a-5e2c50b23a2a")
 		)
 		(instances
 			(project "PLITKA"
