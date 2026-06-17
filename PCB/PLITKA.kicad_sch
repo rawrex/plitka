@@ -4065,6 +4065,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 119.38 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4146,6 +4147,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 113.03 57.1499 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4249,6 +4251,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 140.97 36.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4407,6 +4410,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 134.366 57.1499 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4511,6 +4515,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 101.092 39.3699 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4615,6 +4620,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 134.366 76.1999 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4718,6 +4724,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 129.54 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4799,6 +4806,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 113.03 76.1999 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4902,6 +4910,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 119.38 36.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4982,6 +4991,7 @@
 		)
 		(property "Value" "Battery_Cell"
 			(at 35.56 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5173,6 +5183,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 101.092 76.1999 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5353,6 +5364,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 113.03 39.3699 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5457,6 +5469,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 146.304 76.1999 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5641,6 +5654,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 113.03 93.9799 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5745,6 +5759,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 123.698 57.1499 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5847,6 +5862,7 @@
 		)
 		(property "Value" "Device_Jumper_NO_Small"
 			(at 45.974 123.444 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6003,6 +6019,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 119.38 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6160,7 +6177,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 72.136 53.34 0)
+			(at 75.184 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6238,6 +6255,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 96.52 91.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6319,6 +6337,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 101.092 57.1499 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6422,6 +6441,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 129.54 36.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6577,7 +6597,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 72.136 45.72 0)
+			(at 75.946 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6655,6 +6675,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 107.95 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6734,6 +6755,7 @@
 		)
 		(property "Value" "Device_Jumper_NO_Small"
 			(at 45.974 115.824 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6814,6 +6836,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 96.52 36.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6895,6 +6918,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 101.092 93.9799 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6998,6 +7022,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 140.97 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7078,6 +7103,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 140.97 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7158,6 +7184,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 96.52 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7239,6 +7266,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 134.366 39.3699 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7342,6 +7370,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 107.95 91.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7422,6 +7451,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 107.95 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7503,6 +7533,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 123.698 39.3699 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7605,7 +7636,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 48.26 0)
+			(at 75.184 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7774,6 +7805,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 129.54 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8077,6 +8109,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 123.698 76.1999 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8181,6 +8214,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 146.304 57.1499 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8284,6 +8318,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 107.95 36.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8364,6 +8399,7 @@
 		)
 		(property "Value" "MX_SW_HS"
 			(at 96.52 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8445,6 +8481,7 @@
 		)
 		(property "Value" "D_Small"
 			(at 146.304 39.3699 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8547,6 +8584,7 @@
 		)
 		(property "Value" "Device_Jumper_NO_Small"
 			(at 45.974 127.254 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8626,6 +8664,7 @@
 		)
 		(property "Value" "Device_Jumper_NO_Small"
 			(at 45.974 119.634 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
