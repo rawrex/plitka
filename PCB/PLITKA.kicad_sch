@@ -2926,16 +2926,6 @@
 		)
 		(uuid "3f57029f-39f2-4186-9c79-c459e869aa87")
 	)
-	(wire
-		(pts
-			(xy 62.23 53.34) (xy 68.58 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b915ebc-d304-4a91-ab83-063e13a736d7")
-	)
 	(polyline
 		(pts
 			(xy 154.94 60.96) (xy 198.12 60.96)
@@ -2985,16 +2975,6 @@
 			(type default)
 		)
 		(uuid "5618c7eb-3dc3-420b-8e94-1d02e8259090")
-	)
-	(wire
-		(pts
-			(xy 62.23 45.72) (xy 68.58 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5705426a-2a3c-4964-b66b-006a26d4718d")
 	)
 	(wire
 		(pts
@@ -3175,16 +3155,6 @@
 			(type default)
 		)
 		(uuid "9c90f6eb-0b83-4b84-86c8-8523d688a32e")
-	)
-	(wire
-		(pts
-			(xy 62.23 48.26) (xy 68.58 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e5a73bf-cfc0-449f-8dc6-95439d9cdfec")
 	)
 	(wire
 		(pts
@@ -6156,7 +6126,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 68.58 53.34 270)
+		(at 62.23 53.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6166,7 +6136,7 @@
 		(dnp no)
 		(uuid "729e51e2-3a7f-41ae-a57f-2fd79154f794")
 		(property "Reference" "#PWR5"
-			(at 64.77 53.34 0)
+			(at 58.42 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6177,7 +6147,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 75.184 53.34 90)
+			(at 68.834 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6187,7 +6157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 53.34 0)
+			(at 62.23 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6198,7 +6168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 53.34 0)
+			(at 62.23 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6209,7 +6179,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 68.58 53.34 0)
+			(at 62.23 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6576,7 +6546,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 68.58 45.72 270)
+		(at 62.23 45.72 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6586,7 +6556,7 @@
 		(dnp no)
 		(uuid "7ea15999-0781-4c2e-a266-2adaf5a39946")
 		(property "Reference" "#PWR3"
-			(at 64.77 45.72 0)
+			(at 58.42 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6597,7 +6567,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 75.946 45.72 90)
+			(at 69.342 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6607,7 +6577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 45.72 0)
+			(at 62.23 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6618,7 +6588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 45.72 0)
+			(at 62.23 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6629,7 +6599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 68.58 45.72 0)
+			(at 62.23 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7615,7 +7585,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 48.26 90)
+		(at 62.23 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7625,7 +7595,7 @@
 		(dnp no)
 		(uuid "c516236d-7229-4a01-a069-eb1adad5e9b6")
 		(property "Reference" "#PWR4"
-			(at 74.93 48.26 0)
+			(at 68.58 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7636,7 +7606,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 75.184 48.26 90)
+			(at 68.834 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7646,7 +7616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 48.26 0)
+			(at 62.23 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7657,7 +7627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 48.26 0)
+			(at 62.23 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7668,7 +7638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 48.26 0)
+			(at 62.23 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
