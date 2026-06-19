@@ -15,8 +15,6 @@
 	)
 	(layers
 		(0 "F.Cu" signal "Front")
-		(4 "In1.Cu" signal)
-		(6 "In2.Cu" signal)
 		(2 "B.Cu" signal "Back")
 		(13 "F.Paste" user)
 		(15 "B.Paste" user)
@@ -48,29 +46,7 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
-				(thickness 0.480066)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 2"
-				(type "prepreg")
-				(thickness 0.480066)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 3"
-				(type "core")
-				(thickness 0.480066)
+				(thickness 1.510198)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -109,6 +85,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -316,7 +293,7 @@
 			(uuid "e45a2b1e-e201-4ef1-a619-069700256f6b")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -498,7 +475,7 @@
 			(uuid "639d3d6c-dc64-4c3d-80bb-ae3dada7f944")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -2048,7 +2025,7 @@
 			(uuid "7ca3ac1d-8224-4546-b65d-95ff90b6c6a7")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -2672,7 +2649,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000001 -1.5)
+			(end 7.000002 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2741,7 +2718,7 @@
 			(uuid "7327bb88-63f9-4991-bf77-1802b56e003e")
 		)
 		(fp_line
-			(start 7.000001 -1.5)
+			(start 7.000002 -1.5)
 			(end 7 -2.35)
 			(stroke
 				(width 0.15)
@@ -2994,7 +2971,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000001 -1.5)
+			(end 7.000002 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3043,7 +3020,7 @@
 			(uuid "e3398458-087d-42fd-bd13-4f28fc2f146a")
 		)
 		(fp_line
-			(start 7.000001 -1.5)
+			(start 7.000002 -1.5)
 			(end 7 -6.2)
 			(stroke
 				(width 0.15)
@@ -3125,7 +3102,7 @@
 			(uuid "a4073fa1-2539-4855-a3a5-76ab718d716f")
 		)
 		(fp_line
-			(start -9.55 -2.499999)
+			(start -9.55 -2.499998)
 			(end -7 -2.5)
 			(stroke
 				(width 0.15)
@@ -3146,7 +3123,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.55 -2.499999)
+			(end -9.55 -2.499998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3305,7 +3282,7 @@
 			(uuid "af450198-f957-4785-a515-d2c50fb6cfac")
 		)
 		(fp_line
-			(start 4.549999 -5.957)
+			(start 4.549998 -5.957)
 			(end 4.55 -7.228)
 			(stroke
 				(width 0.15)
@@ -4926,7 +4903,7 @@
 			(uuid "88515d9f-235c-4e9d-abc4-92a323ac1ee4")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -5108,7 +5085,7 @@
 			(uuid "8b69093e-1076-4b41-a6cc-828427ecc2f9")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -5367,7 +5344,7 @@
 			(uuid "c7e445ab-0bc5-4dd6-9daa-c2fe1722ba86")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5466,7 +5443,7 @@
 			(uuid "5561d723-cffe-45e0-a880-764cfd698dd3")
 		)
 		(fp_line
-			(start -7.000001 -6)
+			(start -7.000002 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -5496,7 +5473,7 @@
 			(uuid "9c1a1d16-aed0-4046-ad25-2132f0a4f39d")
 		)
 		(fp_line
-			(start -6 7.000001)
+			(start -6 7.000002)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -5606,7 +5583,7 @@
 			(uuid "ebcf4a89-a173-4b67-b34d-95de57357077")
 		)
 		(fp_line
-			(start 6 -7.000001)
+			(start 6 -7.000002)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -5626,7 +5603,7 @@
 			(uuid "e330ee68-faee-4d06-89d8-c7a341a128e8")
 		)
 		(fp_line
-			(start 7.000001 6)
+			(start 7.000002 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -5678,7 +5655,7 @@
 			(uuid "bbe6dd70-4693-484e-9fd7-a8969f9dcfda")
 		)
 		(fp_line
-			(start -7.000001 -6)
+			(start -7.000002 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -5698,7 +5675,7 @@
 			(uuid "690d928a-65bd-4540-8c8a-f88ba1134d88")
 		)
 		(fp_line
-			(start -6 7.000001)
+			(start -6 7.000002)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -5808,7 +5785,7 @@
 			(uuid "ba900e94-5854-4bab-81f1-4c5017f2ec5f")
 		)
 		(fp_line
-			(start 6 -7.000001)
+			(start 6 -7.000002)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -5828,7 +5805,7 @@
 			(uuid "3556fc5d-ee69-4384-86b5-cbeaa5f6690d")
 		)
 		(fp_line
-			(start 7.000001 6)
+			(start 7.000002 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -6222,7 +6199,7 @@
 			(uuid "f2a1e3e8-6eab-4ff5-b5ec-968e2c74b57e")
 		)
 		(fp_line
-			(start -9.549999 -2.5)
+			(start -9.549998 -2.5)
 			(end -7 -2.5)
 			(stroke
 				(width 0.15)
@@ -6233,7 +6210,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.549999 -2.5)
+			(end -9.549998 -2.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6896,7 +6873,7 @@
 			(uuid "90101b49-614c-45c0-8ea1-4e8c656a49a1")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -8342,7 +8319,7 @@
 			(uuid "36be91a6-8044-4ebf-9721-6a55c507003b")
 		)
 		(fp_line
-			(start -7.000001 -6)
+			(start -7.000002 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -8372,7 +8349,7 @@
 			(uuid "4e5a5802-4d89-4ae0-973f-a235b0b7db62")
 		)
 		(fp_line
-			(start -6 7.000001)
+			(start -6 7.000002)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -8482,7 +8459,7 @@
 			(uuid "01b4767b-e8b1-48da-bcd9-a982708090e5")
 		)
 		(fp_line
-			(start 6 -7.000001)
+			(start 6 -7.000002)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -8502,7 +8479,7 @@
 			(uuid "e7b1f096-efae-4185-8f7e-bec9c1be62d5")
 		)
 		(fp_line
-			(start 7.000001 6)
+			(start 7.000002 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -8554,7 +8531,7 @@
 			(uuid "c5bc07f9-8446-40c9-87a9-a34ee819a5e6")
 		)
 		(fp_line
-			(start -7.000001 -6)
+			(start -7.000002 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -8574,7 +8551,7 @@
 			(uuid "84e10ebe-795a-49e9-bb43-5e09dc784a67")
 		)
 		(fp_line
-			(start -6 7.000001)
+			(start -6 7.000002)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -8684,7 +8661,7 @@
 			(uuid "a37d0d59-a8f4-4789-9df3-eabc79479dc7")
 		)
 		(fp_line
-			(start 6 -7.000001)
+			(start 6 -7.000002)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -8704,7 +8681,7 @@
 			(uuid "5222611c-33ad-469a-9e47-93f7ea8a4a4f")
 		)
 		(fp_line
-			(start 7.000001 6)
+			(start 7.000002 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -9098,7 +9075,7 @@
 			(uuid "99b7cb1d-d0d9-415c-9b34-b19e737b07ad")
 		)
 		(fp_line
-			(start -9.549999 -2.5)
+			(start -9.549998 -2.5)
 			(end -7 -2.5)
 			(stroke
 				(width 0.15)
@@ -9109,7 +9086,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.549999 -2.5)
+			(end -9.549998 -2.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -9579,7 +9556,7 @@
 			(uuid "36e6412f-20b9-49ce-8b66-210416803276")
 		)
 		(fp_line
-			(start -7.000001 -6)
+			(start -7.000002 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -9609,7 +9586,7 @@
 			(uuid "bed2fe95-6dba-4ebe-bc9c-a19e14f15a00")
 		)
 		(fp_line
-			(start -6 7.000001)
+			(start -6 7.000002)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -9719,7 +9696,7 @@
 			(uuid "34ffbebd-dcc6-461a-a653-d0b19ed0a487")
 		)
 		(fp_line
-			(start 6 -7.000001)
+			(start 6 -7.000002)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -9739,7 +9716,7 @@
 			(uuid "1e483cf8-9e9a-4977-b975-9c07821e4ae7")
 		)
 		(fp_line
-			(start 7.000001 6)
+			(start 7.000002 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -9791,7 +9768,7 @@
 			(uuid "068b569b-f893-40b2-8f66-18f95af450f7")
 		)
 		(fp_line
-			(start -7.000001 -6)
+			(start -7.000002 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -9811,7 +9788,7 @@
 			(uuid "0cfc3231-4efa-466e-a4a7-253767765343")
 		)
 		(fp_line
-			(start -6 7.000001)
+			(start -6 7.000002)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -9921,7 +9898,7 @@
 			(uuid "a9408896-f0fc-4d55-ab3d-5d7d357e4d87")
 		)
 		(fp_line
-			(start 6 -7.000001)
+			(start 6 -7.000002)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -9941,7 +9918,7 @@
 			(uuid "2aa23d84-35dd-4dd4-97ea-7558946cd426")
 		)
 		(fp_line
-			(start 7.000001 6)
+			(start 7.000002 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -10335,7 +10312,7 @@
 			(uuid "4bba02ea-b52f-4a5c-b7c1-8bd5068d80bd")
 		)
 		(fp_line
-			(start -9.549999 -2.5)
+			(start -9.549998 -2.5)
 			(end -7 -2.5)
 			(stroke
 				(width 0.15)
@@ -10346,7 +10323,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.549999 -2.5)
+			(end -9.549998 -2.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12123,7 +12100,7 @@
 			(uuid "f6a19b91-19b9-47b3-b9e9-565fc0b11661")
 		)
 		(fp_line
-			(start -1.5 -8.200001)
+			(start -1.5 -8.200002)
 			(end -2 -7.7)
 			(stroke
 				(width 0.15)
@@ -12134,7 +12111,7 @@
 		)
 		(fp_line
 			(start 1.5 -8.2)
-			(end -1.5 -8.200001)
+			(end -1.5 -8.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12306,7 +12283,7 @@
 		)
 		(fp_line
 			(start -2 -7.7)
-			(end -1.5 -8.200001)
+			(end -1.5 -8.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12315,7 +12292,7 @@
 			(uuid "4b154485-5b61-4186-a4b3-64f838264132")
 		)
 		(fp_line
-			(start -1.5 -8.200001)
+			(start -1.5 -8.200002)
 			(end 1.5 -8.2)
 			(stroke
 				(width 0.15)
@@ -12326,7 +12303,7 @@
 		)
 		(fp_line
 			(start -2 -4.2)
-			(end -2 -4.550001)
+			(end -2 -4.550002)
 			(stroke
 				(width 0.15)
 				(type default)
@@ -12618,7 +12595,7 @@
 		)
 		(fp_line
 			(start -2 -7.7)
-			(end -1.5 -8.200001)
+			(end -1.5 -8.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12637,7 +12614,7 @@
 			(uuid "7f5f7e46-3911-4c82-bbfd-d2743b79366b")
 		)
 		(fp_line
-			(start -1.5 -8.200001)
+			(start -1.5 -8.200002)
 			(end 1.5 -8.2)
 			(stroke
 				(width 0.15)
@@ -12728,7 +12705,7 @@
 		)
 		(fp_line
 			(start 7 -5)
-			(end 9.55 -4.999999)
+			(end 9.55 -4.999998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12767,7 +12744,7 @@
 			(uuid "f0a57d29-3dd7-4440-a33d-81aefd24a19b")
 		)
 		(fp_line
-			(start 9.55 -4.999999)
+			(start 9.55 -4.999998)
 			(end 9.55 -2.5)
 			(stroke
 				(width 0.15)
@@ -12909,7 +12886,7 @@
 			(uuid "fa0bbf59-28e6-4d6d-83ec-336c27df2c8b")
 		)
 		(fp_line
-			(start -1.5 -8.200001)
+			(start -1.5 -8.200002)
 			(end -2 -7.7)
 			(stroke
 				(width 0.15)
@@ -12920,7 +12897,7 @@
 		)
 		(fp_line
 			(start 1.5 -8.2)
-			(end -1.5 -8.200001)
+			(end -1.5 -8.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12959,7 +12936,7 @@
 			(uuid "c279d1ef-b18d-48df-b73e-104757a0fa18")
 		)
 		(fp_line
-			(start 1.999999 -4.25)
+			(start 1.999998 -4.25)
 			(end 2 -7.7)
 			(stroke
 				(width 0.15)
@@ -12990,7 +12967,7 @@
 		)
 		(fp_line
 			(start 4.54 -5.95)
-			(end 3.281 -4.690999)
+			(end 3.281 -4.690998)
 			(stroke
 				(width 0.15)
 				(type default)
@@ -13373,7 +13350,7 @@
 			(uuid "f25cdced-f62c-4467-8955-1321d3f27595")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -13665,7 +13642,7 @@
 			(uuid "00bc2017-0fbd-46ca-bcfc-e8081e13140f")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -15215,7 +15192,7 @@
 			(uuid "e338df40-9776-46c6-b20f-770909c91b96")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -15397,7 +15374,7 @@
 			(uuid "e415ca4c-6b44-4331-af04-0088a79fb699")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -15470,7 +15447,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.45 -0.7)
-			(end -0.45 0.700001)
+			(end -0.45 0.700002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15480,7 +15457,7 @@
 		)
 		(fp_line
 			(start -0.45 0)
-			(end 0.45 -0.700001)
+			(end 0.45 -0.700002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15489,7 +15466,7 @@
 			(uuid "0565eab0-3b3a-4168-80cf-bd999a21623d")
 		)
 		(fp_line
-			(start 0.45 -0.700001)
+			(start 0.45 -0.700002)
 			(end 0.45 0.7)
 			(stroke
 				(width 0.15)
@@ -15510,7 +15487,7 @@
 		)
 		(fp_line
 			(start -0.45 -0.7)
-			(end -0.45 0.700001)
+			(end -0.45 0.700002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15520,7 +15497,7 @@
 		)
 		(fp_line
 			(start -0.45 0)
-			(end 0.45 -0.700001)
+			(end 0.45 -0.700002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15529,7 +15506,7 @@
 			(uuid "5abb4755-4d2a-496a-98a1-6f98a7b909fc")
 		)
 		(fp_line
-			(start 0.45 -0.700001)
+			(start 0.45 -0.700002)
 			(end 0.45 0.7)
 			(stroke
 				(width 0.15)
@@ -15579,7 +15556,7 @@
 			(uuid "15c30520-688d-4b8c-ab11-b898d9ee1458")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -15761,7 +15738,7 @@
 			(uuid "929142db-672b-48b5-a75c-6f0d6b2e8173")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -16163,7 +16140,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000001 -1.5)
+			(end 7.000002 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16232,7 +16209,7 @@
 			(uuid "0ed5a47e-e569-42cf-ab2b-1cc86b4502cb")
 		)
 		(fp_line
-			(start 7.000001 -1.5)
+			(start 7.000002 -1.5)
 			(end 7 -2.35)
 			(stroke
 				(width 0.15)
@@ -16485,7 +16462,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000001 -1.5)
+			(end 7.000002 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16534,7 +16511,7 @@
 			(uuid "2c5f8593-370a-4c81-8fbb-48a207649603")
 		)
 		(fp_line
-			(start 7.000001 -1.5)
+			(start 7.000002 -1.5)
 			(end 7 -6.2)
 			(stroke
 				(width 0.15)
@@ -16616,7 +16593,7 @@
 			(uuid "d48cdc40-5a8f-4b47-b9cb-a2a40162f0db")
 		)
 		(fp_line
-			(start -9.55 -2.499999)
+			(start -9.55 -2.499998)
 			(end -7 -2.5)
 			(stroke
 				(width 0.15)
@@ -16637,7 +16614,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.55 -2.499999)
+			(end -9.55 -2.499998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16796,7 +16773,7 @@
 			(uuid "71e8b74d-06f8-4f00-a09a-8d24be796676")
 		)
 		(fp_line
-			(start 4.549999 -5.957)
+			(start 4.549998 -5.957)
 			(end 4.55 -7.228)
 			(stroke
 				(width 0.15)
@@ -17290,7 +17267,7 @@
 			(uuid "6f739c8c-f23f-46f7-9646-00d921219f5d")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -20116,7 +20093,7 @@
 			(uuid "fde8107e-229e-4a49-8c93-f7538c3c1936")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -20298,7 +20275,7 @@
 			(uuid "37b9ce2e-4d75-4217-830d-d5613ad297c1")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -20480,7 +20457,7 @@
 			(uuid "5d24307b-2eb5-45aa-b790-17220f5651bf")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -21806,7 +21783,7 @@
 			(uuid "9bc38002-302a-4032-a287-6dcbbeedccdd")
 		)
 		(fp_line
-			(start -6.999999 -6)
+			(start -6.999998 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -21846,7 +21823,7 @@
 			(uuid "0cea58b1-1a69-4bc1-94da-d0b740ae1a61")
 		)
 		(fp_line
-			(start -6 6.999999)
+			(start -6 6.999998)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -21956,7 +21933,7 @@
 			(uuid "9a8cc02b-10f7-46f5-8fbf-dd8cd5d1fdce")
 		)
 		(fp_line
-			(start 6 -6.999999)
+			(start 6 -6.999998)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -21976,7 +21953,7 @@
 			(uuid "058124c5-19b6-40e4-bb59-e1a2927e50b4")
 		)
 		(fp_line
-			(start 6.999999 6)
+			(start 6.999998 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -22028,7 +22005,7 @@
 			(uuid "0a321a7d-66b1-410c-83b9-94dcfa452ca7")
 		)
 		(fp_line
-			(start -6.999999 -6)
+			(start -6.999998 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -22048,7 +22025,7 @@
 			(uuid "c7020abd-5f72-4358-944e-790f6bac1951")
 		)
 		(fp_line
-			(start -6 6.999999)
+			(start -6 6.999998)
 			(end -7 7)
 			(stroke
 				(width 0.15)
@@ -22109,7 +22086,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999999 -3.7)
+			(end 0.999998 -3.7)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22158,7 +22135,7 @@
 			(uuid "6d09d230-9d9b-4f56-955a-9a4b4f105a4b")
 		)
 		(fp_line
-			(start 6 -6.999999)
+			(start 6 -6.999998)
 			(end 7 -7)
 			(stroke
 				(width 0.15)
@@ -22208,7 +22185,7 @@
 			(uuid "19d769b5-2ef3-4fdb-a711-298b068871f5")
 		)
 		(fp_line
-			(start 6.999999 6)
+			(start 6.999998 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -22228,7 +22205,7 @@
 			(uuid "001b2fc7-a6b8-48f0-8538-d3fb03b1c196")
 		)
 		(fp_arc
-			(start 0.999999 -3.7)
+			(start 0.999998 -3.7)
 			(mid 2.06066 -3.26066)
 			(end 2.5 -2.2)
 			(stroke
@@ -22431,7 +22408,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999999 -3.7)
+			(end 0.999998 -3.7)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22550,7 +22527,7 @@
 			(uuid "e217b02f-86e9-4644-9853-f3b979d54854")
 		)
 		(fp_arc
-			(start 0.999999 -3.7)
+			(start 0.999998 -3.7)
 			(mid 2.06066 -3.26066)
 			(end 2.5 -2.2)
 			(stroke
@@ -25406,7 +25383,7 @@
 			(uuid "7e1236fc-f0be-495d-bd1f-03cd985369d7")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -25808,7 +25785,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000001 -1.5)
+			(end 7.000002 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -25877,7 +25854,7 @@
 			(uuid "a05c638f-3f72-42c0-91f2-40c1cb3a481e")
 		)
 		(fp_line
-			(start 7.000001 -1.5)
+			(start 7.000002 -1.5)
 			(end 7 -2.35)
 			(stroke
 				(width 0.15)
@@ -26130,7 +26107,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000001 -1.5)
+			(end 7.000002 -1.5)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -26179,7 +26156,7 @@
 			(uuid "d7080aea-a985-4cd4-90b1-cd18e1724df4")
 		)
 		(fp_line
-			(start 7.000001 -1.5)
+			(start 7.000002 -1.5)
 			(end 7 -6.2)
 			(stroke
 				(width 0.15)
@@ -26261,7 +26238,7 @@
 			(uuid "ea2fb329-6d5d-4481-8dc7-d91f73f8eb25")
 		)
 		(fp_line
-			(start -9.55 -2.499999)
+			(start -9.55 -2.499998)
 			(end -7 -2.5)
 			(stroke
 				(width 0.15)
@@ -26282,7 +26259,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.55 -2.499999)
+			(end -9.55 -2.499998)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -26441,7 +26418,7 @@
 			(uuid "61098ff1-a305-4d78-8e82-97f27f9da656")
 		)
 		(fp_line
-			(start 4.549999 -5.957)
+			(start 4.549998 -5.957)
 			(end 4.55 -7.228)
 			(stroke
 				(width 0.15)
