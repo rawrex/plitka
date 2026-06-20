@@ -37,17 +37,6 @@
 			)
 		)
 	)
-	(property "Description" "Foo"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e3f2048a-23ba-4759-b697-7e98b4185051")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect

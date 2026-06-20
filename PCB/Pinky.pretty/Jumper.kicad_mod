@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" " SDA"
+	(property "Value" "SDA"
 		(at -2.794 0 0)
 		(layer "F.SilkS")
 		(hide yes)
