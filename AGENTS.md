@@ -14,7 +14,6 @@ This repo: PCB, footprints, and symbols only.
 | `PCB/Pinky.pretty/` | **7 custom footprints** + **1 symbol library file** (`pinky.kicad_sym`). Case-sensitive — dir name is `Pinky.pretty`, not `pinky.pretty` |
 | `PCB/fp-lib-table` | Footprint library table — **exactly ONE entry**: `Pinky` → `${KIPRJMOD}/Pinky.pretty` |
 | `PCB/sym-lib-table` | Symbol library table — references `pinky.kicad_sym` inside `Pinky.pretty/` |
-| `PCB/README.md` | JLCPCB manufacturing instructions |
 
 ## Library gotchas
 
@@ -43,7 +42,7 @@ Plus system lib: `MountingHole:MountingHole_2.2mm_M2_ISO7380` (5 per board).
 
 ## Custom symbols
 
-3 unique symbol types in `pinky.kicad_sym` (10 definitions including unit variants):
+3 unique symbol types in `pinky.kicad_sym` (7 definitions including unit variants):
 
 | Symbol | Used for |
 |---|---|
