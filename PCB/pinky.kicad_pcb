@@ -164,7 +164,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -175,42 +175,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1de9671f-ade4-46c9-8f94-f5836e99a266")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d0aa3589-7366-4a0a-8eac-5c5ac321a96f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b51804ed-dff9-4f3e-a403-4b992f5ceee6")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -330,7 +298,7 @@
 			(uuid "e45a2b1e-e201-4ef1-a619-069700256f6b")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -384,7 +352,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -395,42 +363,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd177595-1d91-4b11-a280-5759cb26e78e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4d3c5976-abcc-419a-b660-18a84b46b415")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/2a94d55a-c76c-4cac-b94d-20988e82d02b")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -550,7 +486,7 @@
 			(uuid "639d3d6c-dc64-4c3d-80bb-ae3dada7f944")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -616,14 +552,8 @@
 		(path "/ec210dc4-47a6-4df0-bdc9-59319d61eb76")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
+		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_rect
 			(start -1.143 -0.889)
 			(end 1.143 0.889)
@@ -687,17 +617,6 @@
 			(uuid "6c29a6a7-3347-4972-9b5d-04391d294155")
 		)
 		(embedded_fonts no)
-		(model "smd\\resistors\\R0603.wrl"
-			(offset
-				(xyz 0 0 0.02539999962)
-			)
-			(scale
-				(xyz 0.5 0.5 0.5)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Pinky:Kailh_socket_PG1350_optional_reversible"
 		(layer "F.Cu")
@@ -739,7 +658,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -753,12 +672,6 @@
 		(path "/2f95d38e-a03f-4cf7-9731-498d6751a3a3")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1984,7 +1897,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -1995,42 +1908,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 350)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e0bd9a52-3956-4f5c-9906-1ebf9973f94c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 350)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ef759dd-2d0d-41a5-893b-55b9b02885e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e65964e6-27db-4a93-b492-71879cc4fcc1")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2150,7 +2031,7 @@
 			(uuid "7ca3ac1d-8224-4546-b65d-95ff90b6c6a7")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -2201,7 +2082,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2215,12 +2096,6 @@
 		(path "/5b6b1593-51f1-40c8-89c3-442c47f55797")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2430,7 +2305,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -2444,12 +2319,6 @@
 		(path "/9f6aa6fa-3191-4b10-803e-e75e33001f85")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3004,7 +2873,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e43de6da-b015-4668-8c40-793a58cfbc92")
+			(uuid "689a08ee-6ac4-44dd-84ed-a3f9f79b5960")
 		)
 		(fp_line
 			(start -7.5 -7.499999)
@@ -3014,7 +2883,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e3398458-087d-42fd-bd13-4f28fc2f146a")
+			(uuid "3ca813a6-1326-4d92-8752-30d4e9a7a8b4")
 		)
 		(fp_line
 			(start -4.55 -5.95)
@@ -3154,7 +3023,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "689a08ee-6ac4-44dd-84ed-a3f9f79b5960")
+			(uuid "e43de6da-b015-4668-8c40-793a58cfbc92")
 		)
 		(fp_line
 			(start 7.000001 -1.5)
@@ -3194,7 +3063,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "3ca813a6-1326-4d92-8752-30d4e9a7a8b4")
+			(uuid "e3398458-087d-42fd-bd13-4f28fc2f146a")
 		)
 		(fp_line
 			(start 9.55 -2.5)
@@ -3286,7 +3155,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d75485b3-1c5b-47cc-8724-a08489ea9b03")
+			(uuid "c2b6ff0e-054b-4e4b-b55c-d547909167f3")
 		)
 		(fp_line
 			(start -7 -5)
@@ -3456,7 +3325,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c2b6ff0e-054b-4e4b-b55c-d547909167f3")
+			(uuid "d75485b3-1c5b-47cc-8724-a08489ea9b03")
 		)
 		(fp_arc
 			(start -2.5 -2.200001)
@@ -3673,7 +3542,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3687,12 +3556,6 @@
 		(path "/8188caea-8de6-4fbc-a456-b632b8bf6731")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4918,7 +4781,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4929,42 +4792,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a44487c2-aeb7-40a3-b793-a6a4a6a9a6a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "94c07255-b219-4ad8-9c3e-53e35b192f79")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/78b7a4c5-5b52-49ec-8317-d1d28ca53bda")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5084,7 +4915,7 @@
 			(uuid "88515d9f-235c-4e9d-abc4-92a323ac1ee4")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -5138,7 +4969,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5149,42 +4980,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9697cef8-2441-45ea-8265-5d03f2d68593")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4947d4e2-0ead-4f34-afda-d20baaa0e310")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/0ecf4455-e900-453c-94e8-f99082fd818c")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5304,7 +5103,7 @@
 			(uuid "8b69093e-1076-4b41-a6cc-828427ecc2f9")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -5356,7 +5155,7 @@
 				)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5367,54 +5166,9 @@
 				)
 			)
 		)
-		(property "Sim.Device" "V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c456e25b-906d-4ac4-880d-74ef711613e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a8b7a388-874d-4df0-9a06-ef5de4bda743")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fcf435a6-e1c3-41f4-aae5-3861bd5a10a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/303b52eb-2229-442e-bdef-ad8604aaf819")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5608,7 +5362,7 @@
 			(uuid "c7e445ab-0bc5-4dd6-9daa-c2fe1722ba86")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5660,7 +5414,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -5674,12 +5428,6 @@
 		(path "/cafe9b5c-8d4c-4967-a3f1-359d5108b504")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6714,13 +6462,13 @@
 			(at 169.472839 95.693856)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "ea02b604-03c3-405a-a934-38619d13165e")
+			(uuid "d24a54be-4dfb-465c-9406-9610c89c64b3")
 		)
 		(point
 			(at 163.885956 94.952328)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "d24a54be-4dfb-465c-9406-9610c89c64b3")
+			(uuid "ea02b604-03c3-405a-a934-38619d13165e")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 356)
@@ -6902,7 +6650,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6913,17 +6661,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b6757030-e65a-48cb-8b12-df6f12bce6df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/43035051-17df-4ee6-931b-905cd39262eb")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -7009,7 +6763,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -7020,42 +6774,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 350)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "92f2bc95-30a6-496c-ac32-51823eed9f46")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 350)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a63a17c8-00d8-4a62-a8ee-82e412c514c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5729a454-d6c4-4b8e-be24-83cbb093d9a5")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7175,7 +6897,7 @@
 			(uuid "90101b49-614c-45c0-8ea1-4e8c656a49a1")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -7227,7 +6949,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7241,12 +6963,6 @@
 		(path "/05f348eb-9a05-40e8-9e2d-51b3642a08b7")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8281,13 +7997,13 @@
 			(at 150.969862 68.084448)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "9b754f84-b55e-4178-8c37-5ed893da11e9")
+			(uuid "3e498fb1-0698-4623-8b6e-fa722dbdb9f0")
 		)
 		(point
 			(at 145.344862 67.734448)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "3e498fb1-0698-4623-8b6e-fa722dbdb9f0")
+			(uuid "9b754f84-b55e-4178-8c37-5ed893da11e9")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -8469,7 +8185,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8480,17 +8196,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d211bda2-5d39-4111-81d8-878699d6a7df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/052312c8-7082-4730-8fdc-be45b9c7b119")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -8574,7 +8296,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -8588,12 +8310,6 @@
 		(path "/7aea9b81-0e0d-4c72-9f77-6478ce030b3c")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9628,13 +9344,13 @@
 			(at 171.836554 61.790467)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "7bb99a18-381a-497e-a153-73f73a840537")
+			(uuid "233e0c48-db73-492b-a412-d09bc599bbf4")
 		)
 		(point
 			(at 166.249671 61.048939)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "233e0c48-db73-492b-a412-d09bc599bbf4")
+			(uuid "7bb99a18-381a-497e-a153-73f73a840537")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 356)
@@ -9817,7 +9533,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -9831,12 +9547,6 @@
 		(path "/25dd9609-789f-4f3c-89e7-04c67e5f906d")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11060,7 +10770,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11074,12 +10784,6 @@
 		(path "/72154ec9-0d68-4d25-a464-427bd5d96a7b")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12303,7 +12007,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 8)
 			(layer "F.Fab")
 			(hide yes)
@@ -12317,12 +12021,6 @@
 		(path "/72debe4c-353b-441e-948e-ae12758310db")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13357,13 +13055,13 @@
 			(at 94.979685 116.127458)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "51b67241-9c5b-4a1c-bd08-008bcd75fb5b")
+			(uuid "1d72f6f5-b901-408e-bbfe-06639babac22")
 		)
 		(point
 			(at 89.360716 116.563713)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "1d72f6f5-b901-408e-bbfe-06639babac22")
+			(uuid "51b67241-9c5b-4a1c-bd08-008bcd75fb5b")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 8)
@@ -13548,7 +13246,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13559,42 +13257,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a3e3a49-01eb-4d45-8bad-af26b6bcd39c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0de511cb-4cba-4f64-8ef7-3e9cb9395192")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5c45332f-0c76-47b8-b137-a6dd1fca1155")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13714,7 +13380,7 @@
 			(uuid "f25cdced-f62c-4467-8955-1321d3f27595")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -13765,7 +13431,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13776,17 +13442,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "55973476-f40b-4446-b116-c3d5462f146b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/7b8a12ea-b0d0-471c-a5bc-201dbda0b5fd")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -13872,7 +13544,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -13883,42 +13555,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 356)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "40d3d9a5-786d-4cfb-936c-109f3ae965ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 356)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "071af80c-26c9-4ade-b2ee-e4bb7d9e0cdc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/1a3f465a-e327-4540-b6f3-33c32a4901da")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14038,7 +13678,7 @@
 			(uuid "00bc2017-0fbd-46ca-bcfc-e8081e13140f")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -14090,7 +13730,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14104,12 +13744,6 @@
 		(path "/a0689e1b-8703-4a10-927c-caf698818cb2")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15144,13 +14778,13 @@
 			(at 114.985 95.037813)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "9ea1274e-e6aa-430e-b24e-30fef6156aca")
+			(uuid "3cad9867-a082-443b-ab7d-1431263f2451")
 		)
 		(point
 			(at 109.36 94.687813)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "3cad9867-a082-443b-ab7d-1431263f2451")
+			(uuid "9ea1274e-e6aa-430e-b24e-30fef6156aca")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -15347,14 +14981,8 @@
 		(path "/e7334379-accd-4a58-80ec-7fef8c9e140c")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
+		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_rect
 			(start -1.143 -0.889)
 			(end 1.143 0.889)
@@ -15418,17 +15046,6 @@
 			(uuid "8b4ff94e-0822-4623-b4a3-5b50908da280")
 		)
 		(embedded_fonts no)
-		(model "smd\\resistors\\R0603.wrl"
-			(offset
-				(xyz 0 0 0.02539999962)
-			)
-			(scale
-				(xyz 0.5 0.5 0.5)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
@@ -15472,7 +15089,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -15483,42 +15100,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 350)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1efaba59-8a25-4176-aca0-56b8702f74c0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 350)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99cf1536-cbd4-4200-8156-dcdb0282d0ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/dfaaaff2-7538-49e3-9b6b-4e76a547a158")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15638,7 +15223,7 @@
 			(uuid "e338df40-9776-46c6-b20f-770909c91b96")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -15692,7 +15277,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15703,42 +15288,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1cfc856d-9a76-4f39-a544-59565aafac20")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b071c7e-d33a-4449-9f81-4cde92afa04f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/df35e296-ea0f-4574-b225-3389ca777371")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15858,7 +15411,7 @@
 			(uuid "e415ca4c-6b44-4331-af04-0088a79fb699")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -15912,7 +15465,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 8)
 			(layer "F.Fab")
 			(hide yes)
@@ -15923,42 +15476,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 8)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4d5a65b8-f2f1-4c99-8f5f-92b74fcf025f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 8)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e969966a-5131-48b2-84ee-0078549824eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/8d69ffcf-0145-4967-ad3d-625d583744bf")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16078,7 +15599,7 @@
 			(uuid "15c30520-688d-4b8c-ab11-b898d9ee1458")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -16132,7 +15653,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 4)
 			(layer "F.Fab")
 			(hide yes)
@@ -16143,42 +15664,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "13d99339-a1df-4e15-93fe-ae592d22e5c5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 4)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ed765d8b-499a-498f-92b0-34e30815d099")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5c0af6dd-f511-42cb-8803-6251b4a90cae")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16298,7 +15787,7 @@
 			(uuid "929142db-672b-48b5-a75c-6f0d6b2e8173")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -16350,7 +15839,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -16364,12 +15853,6 @@
 		(path "/1379ae49-5f43-4487-ba64-820f99c87628")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16924,7 +16407,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "c4d1ce88-3cb0-4fe8-8b84-80e87a78cd3a")
+			(uuid "f19530e4-ffc6-4053-b61e-089a95ad8f8e")
 		)
 		(fp_line
 			(start -7.5 -7.499999)
@@ -17074,7 +16557,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "f19530e4-ffc6-4053-b61e-089a95ad8f8e")
+			(uuid "c4d1ce88-3cb0-4fe8-8b84-80e87a78cd3a")
 		)
 		(fp_line
 			(start 7.000001 -1.5)
@@ -17176,7 +16659,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6a39c4be-fdca-4ded-ab38-899bc83892cd")
+			(uuid "d2f66986-8587-432b-990d-b23a31c653e6")
 		)
 		(fp_line
 			(start -9.55 -5)
@@ -17206,7 +16689,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ac0d6d5e-abb1-4ccc-a1b2-2127532cf6ec")
+			(uuid "a378b491-7a30-4624-9b7d-fd2447f5136d")
 		)
 		(fp_line
 			(start -7 -5)
@@ -17366,7 +16849,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d2f66986-8587-432b-990d-b23a31c653e6")
+			(uuid "ac0d6d5e-abb1-4ccc-a1b2-2127532cf6ec")
 		)
 		(fp_line
 			(start 7.499999 -7.5)
@@ -17376,7 +16859,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a378b491-7a30-4624-9b7d-fd2447f5136d")
+			(uuid "6a39c4be-fdca-4ded-ab38-899bc83892cd")
 		)
 		(fp_arc
 			(start -2.5 -2.200001)
@@ -17592,7 +17075,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17603,17 +17086,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "06d4fcd8-1ff8-4494-a985-c046bf7149a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/4dd64f6f-fadd-49ee-8597-dc3eafed6409")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -17699,7 +17188,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17710,42 +17199,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b1f13ef0-3932-490c-a859-57bd1917674b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74b2cce3-ad10-47f1-bc10-b7db71d24592")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/549837fd-742e-4acb-9954-b1cc01668088")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17865,7 +17322,7 @@
 			(uuid "6f739c8c-f23f-46f7-9646-00d921219f5d")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -17917,7 +17374,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17931,12 +17388,6 @@
 		(path "/e4b82ad0-bb70-48fe-89ce-f43bb6879a1b")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19158,7 +18609,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" "Foo"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -19172,12 +18623,6 @@
 		(path "/2b2283d2-68f9-40a8-9a40-e386244682ad")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -19336,7 +18781,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19350,12 +18795,6 @@
 		(path "/e2ceac69-a5d5-462f-b8e7-24123de35429")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20581,7 +20020,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20592,42 +20031,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "72c21c07-d245-4906-8166-ef31f9024383")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd50a32e-9e8a-4cba-b287-70794a12ab5b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/448e4710-476c-44c5-b0f0-7e27b648e95f")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20747,7 +20154,7 @@
 			(uuid "fde8107e-229e-4a49-8c93-f7538c3c1936")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -20801,7 +20208,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20812,42 +20219,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b848cad2-68d4-4bf3-bf9c-22e771df40b4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0e9d47e-15ff-4d02-865a-96dc83b10c7d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/1d754e0c-acf6-465b-80d5-bfef0a959315")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20967,7 +20342,7 @@
 			(uuid "37b9ce2e-4d75-4217-830d-d5613ad297c1")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -21021,7 +20396,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -21032,42 +20407,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 356)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ace187e9-b92e-4660-bc9d-4c8bc6976303")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 356)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "15718788-f8d8-444c-bff7-432a48a67d5d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a80a66ba-5aa0-44ca-b2a5-5ac1e1c591f1")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21187,7 +20530,7 @@
 			(uuid "5d24307b-2eb5-45aa-b790-17220f5651bf")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -21239,7 +20582,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21253,12 +20596,6 @@
 		(path "/8bb89a93-d7e1-42e7-b46e-e080be939965")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22482,7 +21819,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -22496,12 +21833,6 @@
 		(path "/a9980814-ca5f-4ba5-922a-1a504b5f4f96")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23536,13 +22867,13 @@
 			(at 114.608271 113.919694)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "86fe0bce-36c7-493f-82b0-8871c52bd532")
+			(uuid "9a931276-dc42-4bcc-b227-7c6a0716ba96")
 		)
 		(point
 			(at 108.972662 113.864564)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "9a931276-dc42-4bcc-b227-7c6a0716ba96")
+			(uuid "86fe0bce-36c7-493f-82b0-8871c52bd532")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 3)
@@ -23724,7 +23055,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23735,17 +23066,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9cfebba8-839d-4776-ad79-b93fab1551d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/71703110-63b8-4119-83da-759c099f6741")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -23829,7 +23166,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23843,12 +23180,6 @@
 		(path "/aed9ad26-03d8-466e-bbb8-c8679a6db2d5")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25085,14 +24416,6 @@
 		(path "/cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "16" "14" "13"
-					"15" "17" "18" "19" "20" "21" "22" "23" "24"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25951,17 +25274,6 @@
 			(uuid "bd81696b-bee8-48aa-80dc-fae9e546c78c")
 		)
 		(embedded_fonts no)
-		(model "/Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/ArduinoProMicro.wrl"
-			(offset
-				(xyz -13.96999979 -7.619999886 -5.841999912)
-			)
-			(scale
-				(xyz 0.395 0.395 0.395)
-			)
-			(rotate
-				(xyz 90 180 180)
-			)
-		)
 	)
 	(footprint "Pinky:Diode_SOD123"
 		(placed yes)
@@ -26005,7 +25317,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" ""
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -26016,42 +25328,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 356)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fd7b6948-e3f9-4bc9-9c67-93523285d239")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 356)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18ca16a4-1008-41b4-b253-c1fd83b53993")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/24b8988e-c3ed-4a2a-967e-961ace4002d5")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26171,7 +25451,7 @@
 			(uuid "7e1236fc-f0be-495d-bd1f-03cd985369d7")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -26223,7 +25503,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -26237,12 +25517,6 @@
 		(path "/92fbf0cb-13a5-442a-a697-7d0064a38422")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26797,7 +26071,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "3dc9d7a4-0001-4958-a467-4a40bbf22c9c")
+			(uuid "47759a01-5af9-489b-9be6-9f0cfc7fc1cd")
 		)
 		(fp_line
 			(start -7.5 -7.499999)
@@ -26807,7 +26081,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "47759a01-5af9-489b-9be6-9f0cfc7fc1cd")
+			(uuid "d7080aea-a985-4cd4-90b1-cd18e1724df4")
 		)
 		(fp_line
 			(start -4.55 -5.95)
@@ -26947,7 +26221,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "8628e550-83cc-4680-99c1-567370e3c220")
+			(uuid "3dc9d7a4-0001-4958-a467-4a40bbf22c9c")
 		)
 		(fp_line
 			(start 7.000001 -1.5)
@@ -26987,7 +26261,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "d7080aea-a985-4cd4-90b1-cd18e1724df4")
+			(uuid "8628e550-83cc-4680-99c1-567370e3c220")
 		)
 		(fp_line
 			(start 9.55 -2.5)
@@ -27049,7 +26323,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9d68c46a-566e-4340-a1c1-c5759447475e")
+			(uuid "750672ed-6299-42c2-b72d-179b11e29608")
 		)
 		(fp_line
 			(start -9.55 -5)
@@ -27079,7 +26353,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "750672ed-6299-42c2-b72d-179b11e29608")
+			(uuid "9d68c46a-566e-4340-a1c1-c5759447475e")
 		)
 		(fp_line
 			(start -7 -5)
@@ -27239,7 +26513,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ceded776-8101-4dc2-bf0c-c68067368bff")
+			(uuid "cbaac10b-4ba4-4401-8ca0-de591d554b1a")
 		)
 		(fp_line
 			(start 7.499999 -7.5)
@@ -27249,7 +26523,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cbaac10b-4ba4-4401-8ca0-de591d554b1a")
+			(uuid "ceded776-8101-4dc2-bf0c-c68067368bff")
 		)
 		(fp_arc
 			(start -2.5 -2.200001)
@@ -27277,13 +26551,13 @@
 			(at 190.113477 92.159056)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "b9d03a58-4309-4afd-bba8-eae0d328a489")
+			(uuid "3d9c4597-b34b-40ed-b25d-0022a1276806")
 		)
 		(point
 			(at 184.63471 90.837602)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "3d9c4597-b34b-40ed-b25d-0022a1276806")
+			(uuid "b9d03a58-4309-4afd-bba8-eae0d328a489")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 350)
@@ -27484,14 +26758,8 @@
 		(path "/6408c83e-07f0-4b01-a210-df46218e7ad9")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
+		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_rect
 			(start -1.143 0.889)
 			(end 1.143 -0.889)
@@ -27555,17 +26823,6 @@
 			(uuid "9ffed4f5-febe-4750-b63c-3ed050bd5b1a")
 		)
 		(embedded_fonts no)
-		(model "smd\\resistors\\R0603.wrl"
-			(offset
-				(xyz 0 0 0.02539999962)
-			)
-			(scale
-				(xyz 0.5 0.5 0.5)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Pinky:Jumper"
 		(layer "B.Cu")
@@ -27625,14 +26882,8 @@
 		(path "/87c8d739-4d64-486a-ae0f-65d6560d5c4e")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
+		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_rect
 			(start -1.143 0.889)
 			(end 1.143 -0.889)
@@ -27696,17 +26947,6 @@
 			(uuid "738e1548-f4bb-4d2a-93ec-e9befdfff9f0")
 		)
 		(embedded_fonts no)
-		(model "smd\\resistors\\R0603.wrl"
-			(offset
-				(xyz 0 0 0.02539999962)
-			)
-			(scale
-				(xyz 0.5 0.5 0.5)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(gr_rect
 		(start 128.05 110.3)
