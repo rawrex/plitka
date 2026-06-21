@@ -524,7 +524,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Pinky:Device_Jumper_NO_Small"
+		(symbol "Pinky:Jumper"
 			(pin_numbers
 				(hide yes)
 			)
@@ -547,8 +547,8 @@
 					)
 				)
 			)
-			(property "Value" "Device_Jumper_NO_Small"
-				(at 0.254 -1.524 0)
+			(property "Value" "Jumper"
+				(at 0.508 -3.302 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -558,7 +558,7 @@
 				)
 			)
 			(property "Footprint" "Pinky:Jumper"
-				(at 0 0 0)
+				(at 0.254 4.572 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -601,7 +601,7 @@
 					)
 				)
 			)
-			(symbol "Device_Jumper_NO_Small_0_1"
+			(symbol "Jumper_0_1"
 				(circle
 					(center -1.016 0)
 					(radius 0.508)
@@ -663,195 +663,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Pinky:MX_SW_HS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 3.048 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MX_SW_HS"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MX_SW_HS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.1684 1.1684)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.54) (xy 2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 2.032 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 0)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Pinky:nice_nano"
+		(symbol "Pinky:Nice!nano"
 			(pin_names
 				(offset 1.016)
 			)
@@ -912,7 +724,7 @@
 					)
 				)
 			)
-			(symbol "nice_nano_0_1"
+			(symbol "Nice!nano_0_1"
 				(rectangle
 					(start -15.24 16.51)
 					(end 15.24 -16.51)
@@ -925,7 +737,7 @@
 					)
 				)
 			)
-			(symbol "nice_nano_1_1"
+			(symbol "Nice!nano_1_1"
 				(pin bidirectional line
 					(at -20.32 13.97 0)
 					(length 5.08)
@@ -1351,6 +1163,194 @@
 						)
 					)
 					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Pinky:Switch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 3.048 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Switch"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Switch_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3887,7 +3887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 119.38 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -3908,7 +3908,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 119.38 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3920,7 +3920,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 119.38 50.8 0)
+			(at 119.38 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3941,7 +3941,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 119.38 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4073,7 +4073,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 140.97 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -4094,7 +4094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 140.97 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4106,7 +4106,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 140.97 33.02 0)
+			(at 140.97 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4127,7 +4127,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 140.97 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4546,7 +4546,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 129.54 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -4567,7 +4567,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 129.54 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4579,7 +4579,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 129.54 50.8 0)
+			(at 129.54 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4600,7 +4600,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 129.54 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4815,7 +4815,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 119.38 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -4836,7 +4836,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 119.38 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4848,7 +4848,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 119.38 33.02 0)
+			(at 119.38 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,7 +4869,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 119.38 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5924,7 +5924,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:Device_Jumper_NO_Small")
+		(lib_id "Pinky:Jumper")
 		(at 45.72 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -5944,8 +5944,8 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
-			(at 45.974 124.714 0)
+		(property "Value" "Jumper"
+			(at 46.228 126.492 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5956,7 +5956,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Jumper"
-			(at 45.72 123.19 0)
+			(at 45.974 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6080,7 +6080,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 119.38 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -6101,7 +6101,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 119.38 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6113,7 +6113,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 119.38 69.85 0)
+			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6134,7 +6134,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 119.38 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6239,7 +6239,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 96.52 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -6260,7 +6260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 96.52 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6272,7 +6272,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 96.52 87.63 0)
+			(at 96.52 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6293,7 +6293,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 96.52 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6425,7 +6425,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 129.54 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -6446,7 +6446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 129.54 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6458,7 +6458,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 129.54 33.02 0)
+			(at 129.54 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6479,7 +6479,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6659,7 +6659,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 107.95 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -6680,7 +6680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 107.95 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6692,7 +6692,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 107.95 69.85 0)
+			(at 107.95 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6713,7 +6713,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 107.95 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6740,7 +6740,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:Device_Jumper_NO_Small")
+		(lib_id "Pinky:Jumper")
 		(at 45.72 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -6760,8 +6760,8 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
-			(at 45.974 115.824 0)
+		(property "Value" "Jumper"
+			(at 46.228 117.602 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6772,7 +6772,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Jumper"
-			(at 45.72 114.3 0)
+			(at 45.974 109.728 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6820,7 +6820,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 96.52 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -6841,7 +6841,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6853,7 +6853,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 96.52 33.02 0)
+			(at 96.52 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6874,7 +6874,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 96.52 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7006,7 +7006,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 140.97 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -7027,7 +7027,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 140.97 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7039,7 +7039,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 140.97 50.8 0)
+			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7060,7 +7060,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 140.97 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7087,7 +7087,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 140.97 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -7108,7 +7108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 140.97 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7120,7 +7120,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 140.97 69.85 0)
+			(at 140.97 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7141,7 +7141,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 140.97 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7168,7 +7168,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 96.52 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -7189,7 +7189,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 96.52 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7201,7 +7201,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 96.52 69.85 0)
+			(at 96.52 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7222,7 +7222,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 96.52 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7354,7 +7354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 107.95 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -7375,7 +7375,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 107.95 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7387,7 +7387,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 107.95 87.63 0)
+			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7408,7 +7408,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7435,7 +7435,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 107.95 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -7456,7 +7456,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 107.95 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7468,7 +7468,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 107.95 50.8 0)
+			(at 107.95 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7489,7 +7489,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 107.95 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7698,7 +7698,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 129.54 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -7719,7 +7719,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 129.54 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7731,7 +7731,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 129.54 69.85 0)
+			(at 129.54 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7752,7 +7752,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 129.54 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7779,7 +7779,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:nice_nano")
+		(lib_id "Pinky:Nice!nano")
 		(at 44.45 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -8211,7 +8211,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 107.95 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -8232,7 +8232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8244,7 +8244,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 107.95 33.02 0)
+			(at 107.95 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8265,7 +8265,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 107.95 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8292,7 +8292,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MX_SW_HS")
+		(lib_id "Pinky:Switch")
 		(at 96.52 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -8313,7 +8313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Switch"
 			(at 96.52 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8325,7 +8325,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
-			(at 96.52 50.8 0)
+			(at 96.52 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8346,7 +8346,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 96.52 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8478,7 +8478,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:Device_Jumper_NO_Small")
+		(lib_id "Pinky:Jumper")
 		(at 45.72 127 0)
 		(unit 1)
 		(body_style 1)
@@ -8498,8 +8498,8 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
-			(at 45.974 128.524 0)
+		(property "Value" "Jumper"
+			(at 46.228 130.302 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8510,7 +8510,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Jumper"
-			(at 45.72 127 0)
+			(at 45.974 122.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8558,7 +8558,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:Device_Jumper_NO_Small")
+		(lib_id "Pinky:Jumper")
 		(at 45.72 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -8578,8 +8578,8 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
-			(at 45.974 119.634 0)
+		(property "Value" "Jumper"
+			(at 46.228 121.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8590,7 +8590,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:Jumper"
-			(at 45.72 118.11 0)
+			(at 45.974 113.538 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
