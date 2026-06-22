@@ -1207,7 +1207,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+			(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3919,7 +3919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 119.38 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4105,7 +4105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 140.97 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4578,7 +4578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 129.54 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4847,7 +4847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 119.38 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6112,7 +6112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6271,7 +6271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 96.52 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6457,7 +6457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 129.54 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6691,7 +6691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 107.95 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6852,7 +6852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 96.52 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7038,7 +7038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7119,7 +7119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 140.97 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7200,7 +7200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 96.52 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7386,7 +7386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7467,7 +7467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 107.95 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7730,7 +7730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 129.54 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8243,7 +8243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 107.95 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8324,7 +8324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:Kailh_socket_PG1350_optional_reversible"
+		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
 			(at 96.52 44.45 0)
 			(hide yes)
 			(show_name no)
