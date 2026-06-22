@@ -31,10 +31,10 @@ All in `Pinky.pretty/` as `.kicad_mod`:
 
 | Footprint | Used for |
 |---|---|
-| `D_SOD123` | 1N4148W SMD diodes (34 per board, bottom side) |
+| `D_SOD123` | 1N4148W SMD diodes (17 per board, bottom side) |
 | `JST_PH_reversible` | Battery connector (optional, requires jumper bridge) |
 | `Jumper` | Solder jumper pads (JP1–JP4) |
-| `Switch` | Kailh Choc PG1350 keyswitch sockets (34 per board) |
+| `Switch` | Kailh Choc PG1350 keyswitch sockets (17 per board) |
 | `MSK12C02_reversible` | Power switch |
 | `nice_nano` | MCU module |
 | `ResetSW` | Tactile reset button |
@@ -51,8 +51,8 @@ Plus system lib: `MountingHole:MountingHole_2.2mm_M2` (5 per board).
 |---|---|
 | `Jumper` | Solder jumper pads (JP1–JP4) |
 | `nice_nano` | MCU module |
-| `Switch` | Kailh Choc keyswitch sockets (34 per board) |
-| `D_SOD123` | 1N4148W SMD diodes (34 per board) |
+| `Switch` | Kailh Choc keyswitch sockets (17 per board) |
+| `D_SOD123` | 1N4148W SMD diodes (17 per board) |
 | `MountingHole` | Mounting holes (5 per board) |
 
 **Symbol-to-footprint mapping is by identical name** — e.g. `Pinky:Switch` (symbol) ↔ `Pinky:Switch` (footprint). No cross-referencing needed.
