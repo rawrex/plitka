@@ -4980,7 +4980,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 48.26 83.82 0)
+			(at 52.578 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6292,7 +6292,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 40.894 35.56 0)
+			(at 38.1 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7331,7 +7331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 83.82 0)
+			(at 38.354 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7478,7 +7478,7 @@
 		(dnp no)
 		(uuid "cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(property "Reference" "U1"
-			(at 29.972 39.116 0)
+			(at 30.48 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
