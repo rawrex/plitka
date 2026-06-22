@@ -3844,7 +3844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 170.18 36.322 0)
 			(hide yes)
 			(show_name no)
@@ -4002,7 +4002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 110.49 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -4265,7 +4265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 132.08 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -4370,7 +4370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 99.06 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -4475,7 +4475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 132.08 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -4661,7 +4661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 110.49 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -5123,7 +5123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 170.18 29.972 0)
 			(hide yes)
 			(show_name no)
@@ -5200,7 +5200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 99.06 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -5381,7 +5381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 170.18 23.622 0)
 			(hide yes)
 			(show_name no)
@@ -5458,7 +5458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 110.49 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -5563,7 +5563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 143.51 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -5748,7 +5748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 110.49 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -5853,7 +5853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 121.92 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -6037,7 +6037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 170.18 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6354,7 +6354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 99.06 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -6539,7 +6539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 170.18 42.926 0)
 			(hide yes)
 			(show_name no)
@@ -6935,7 +6935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 99.06 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -7283,7 +7283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 132.08 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -7550,7 +7550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 121.92 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -8035,7 +8035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 121.92 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -8140,7 +8140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 143.51 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -8407,7 +8407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pinky:Diode_SOD123"
 			(at 143.51 38.1 90)
 			(hide yes)
 			(show_name no)
