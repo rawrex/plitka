@@ -141,7 +141,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Nice!nano"
+	(symbol "nice_nano"
 		(pin_names
 			(offset 1.016)
 		)
@@ -202,7 +202,7 @@
 				)
 			)
 		)
-		(symbol "Nice!nano_0_1"
+		(symbol "nice_nano_0_1"
 			(rectangle
 				(start -15.24 16.51)
 				(end 15.24 -16.51)
@@ -215,7 +215,7 @@
 				)
 			)
 		)
-		(symbol "Nice!nano_1_1"
+		(symbol "nice_nano_1_1"
 			(pin bidirectional line
 				(at -20.32 13.97 0)
 				(length 5.08)
@@ -685,7 +685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 0 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -839,7 +839,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "D_Small"
+	(symbol "D_SOD123"
 		(pin_numbers
 			(hide yes)
 		)
@@ -863,7 +863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at -3.81 -2.032 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -874,7 +874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 0 0 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -940,7 +940,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "Pinky:Diode_SOD123"
+		(property "ki_fp_filters" "Pinky:D_SOD123"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -951,7 +951,7 @@
 				)
 			)
 		)
-		(symbol "D_Small_0_1"
+		(symbol "D_SOD123_0_1"
 			(polyline
 				(pts
 					(xy -0.762 0) (xy 0.762 0)
@@ -989,7 +989,7 @@
 				)
 			)
 		)
-		(symbol "D_Small_1_1"
+		(symbol "D_SOD123_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 1.778)

@@ -235,7 +235,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Pinky:D_Small"
+		(symbol "Pinky:D_SOD123"
 			(pin_numbers
 				(hide yes)
 			)
@@ -259,7 +259,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "D_Small"
+			(property "Value" "D_SOD123"
 				(at -3.81 -2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -270,7 +270,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Pinky:Diode_SOD123"
+			(property "Footprint" "Pinky:D_SOD123"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -336,7 +336,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Pinky:Diode_SOD123"
+			(property "ki_fp_filters" "Pinky:D_SOD123"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -347,7 +347,7 @@
 					)
 				)
 			)
-			(symbol "D_Small_0_1"
+			(symbol "D_SOD123_0_1"
 				(polyline
 					(pts
 						(xy -0.762 0) (xy 0.762 0)
@@ -385,7 +385,7 @@
 					)
 				)
 			)
-			(symbol "D_Small_1_1"
+			(symbol "D_SOD123_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -663,7 +663,195 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Pinky:Nice!nano"
+		(symbol "Pinky:Switch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 3.048 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Switch"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Pinky:Switch"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Switch_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Pinky:nice_nano"
 			(pin_names
 				(offset 1.016)
 			)
@@ -724,7 +912,7 @@
 					)
 				)
 			)
-			(symbol "Nice!nano_0_1"
+			(symbol "nice_nano_0_1"
 				(rectangle
 					(start -15.24 16.51)
 					(end 15.24 -16.51)
@@ -737,7 +925,7 @@
 					)
 				)
 			)
-			(symbol "Nice!nano_1_1"
+			(symbol "nice_nano_1_1"
 				(pin bidirectional line
 					(at -20.32 13.97 0)
 					(length 5.08)
@@ -1163,194 +1351,6 @@
 						)
 					)
 					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Pinky:Switch"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 3.048 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Switch"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Switch_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.1684 1.1684)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.54) (xy 2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 2.032 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 0)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3919,7 +3919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 119.38 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3968,7 +3968,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 110.49 55.88 90)
 		(unit 1)
 		(body_style 1)
@@ -3990,7 +3990,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 112.522 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4002,7 +4002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 110.49 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -4105,7 +4105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 140.97 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4231,7 +4231,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 132.08 55.88 90)
 		(unit 1)
 		(body_style 1)
@@ -4253,7 +4253,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 134.112 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4265,7 +4265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 132.08 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -4336,7 +4336,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 99.06 38.1 90)
 		(unit 1)
 		(body_style 1)
@@ -4358,7 +4358,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 101.092 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4370,7 +4370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 99.06 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -4441,7 +4441,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 132.08 74.93 90)
 		(unit 1)
 		(body_style 1)
@@ -4463,7 +4463,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 134.112 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4475,7 +4475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 132.08 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -4578,7 +4578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 129.54 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4627,7 +4627,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 110.49 74.93 90)
 		(unit 1)
 		(body_style 1)
@@ -4649,7 +4649,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 112.522 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4661,7 +4661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 110.49 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -4847,7 +4847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 119.38 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -5166,7 +5166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 99.06 74.93 90)
 		(unit 1)
 		(body_style 1)
@@ -5188,7 +5188,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 101.092 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5200,7 +5200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 99.06 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -5424,7 +5424,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 110.49 38.1 90)
 		(unit 1)
 		(body_style 1)
@@ -5446,7 +5446,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 112.522 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5458,7 +5458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 110.49 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -5529,7 +5529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 143.51 74.93 90)
 		(unit 1)
 		(body_style 1)
@@ -5551,7 +5551,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 145.542 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5563,7 +5563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 143.51 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -5714,7 +5714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 110.49 92.71 90)
 		(unit 1)
 		(body_style 1)
@@ -5736,7 +5736,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 112.522 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5748,7 +5748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 110.49 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -5819,7 +5819,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 121.92 55.88 90)
 		(unit 1)
 		(body_style 1)
@@ -5841,7 +5841,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 123.952 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5853,7 +5853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 121.92 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -6112,7 +6112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6271,7 +6271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 96.52 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6320,7 +6320,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 99.06 55.88 90)
 		(unit 1)
 		(body_style 1)
@@ -6342,7 +6342,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 101.092 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6354,7 +6354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 99.06 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -6457,7 +6457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 129.54 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6691,7 +6691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 107.95 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6852,7 +6852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 96.52 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6901,7 +6901,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 99.06 92.71 90)
 		(unit 1)
 		(body_style 1)
@@ -6923,7 +6923,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 101.092 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6935,7 +6935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 99.06 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -7038,7 +7038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7119,7 +7119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 140.97 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7200,7 +7200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 96.52 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7249,7 +7249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 132.08 38.1 90)
 		(unit 1)
 		(body_style 1)
@@ -7271,7 +7271,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 134.112 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7283,7 +7283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 132.08 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -7386,7 +7386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7467,7 +7467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 107.95 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7516,7 +7516,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 121.92 38.1 90)
 		(unit 1)
 		(body_style 1)
@@ -7538,7 +7538,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 123.952 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7550,7 +7550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 121.92 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -7730,7 +7730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 129.54 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7779,7 +7779,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:Nice!nano")
+		(lib_id "Pinky:nice_nano")
 		(at 44.45 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -8001,7 +8001,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 121.92 74.93 90)
 		(unit 1)
 		(body_style 1)
@@ -8023,7 +8023,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 123.952 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8035,7 +8035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 121.92 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -8106,7 +8106,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 143.51 55.88 90)
 		(unit 1)
 		(body_style 1)
@@ -8128,7 +8128,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 145.542 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8140,7 +8140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 143.51 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -8243,7 +8243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 107.95 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8324,7 +8324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pinky:SW_Kailh_Choc_PG1350"
+		(property "Footprint" "Pinky:Switch"
 			(at 96.52 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8373,7 +8373,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:D_Small")
+		(lib_id "Pinky:D_SOD123")
 		(at 143.51 38.1 90)
 		(unit 1)
 		(body_style 1)
@@ -8395,7 +8395,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "D_SOD123"
 			(at 145.542 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8407,7 +8407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinky:Diode_SOD123"
+		(property "Footprint" "Pinky:D_SOD123"
 			(at 143.51 38.1 90)
 			(hide yes)
 			(show_name no)
