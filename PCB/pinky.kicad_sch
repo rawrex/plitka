@@ -3679,7 +3679,7 @@
 	)
 	(symbol
 		(lib_id "Pinky:MountingHole")
-		(at 170.18 36.322 0)
+		(at 170.18 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3690,7 +3690,7 @@
 		(fields_autoplaced yes)
 		(uuid "052312c8-7082-4730-8fdc-be45b9c7b119")
 		(property "Reference" "H3"
-			(at 172.72 35.0519 0)
+			(at 172.72 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3701,7 +3701,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 172.72 37.5919 0)
+			(at 172.72 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3712,7 +3712,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 170.18 36.322 0)
+			(at 170.18 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3723,7 +3723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 36.322 0)
+			(at 170.18 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3734,7 +3734,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 170.18 36.322 0)
+			(at 170.18 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5084,7 +5084,7 @@
 	)
 	(symbol
 		(lib_id "Pinky:MountingHole")
-		(at 170.18 29.972 0)
+		(at 170.18 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5095,7 +5095,7 @@
 		(fields_autoplaced yes)
 		(uuid "43035051-17df-4ee6-931b-905cd39262eb")
 		(property "Reference" "H2"
-			(at 172.72 28.7019 0)
+			(at 172.72 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5106,7 +5106,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 172.72 31.2419 0)
+			(at 172.72 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5117,7 +5117,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 170.18 29.972 0)
+			(at 170.18 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5128,7 +5128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 29.972 0)
+			(at 170.18 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5139,7 +5139,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 170.18 29.972 0)
+			(at 170.18 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5318,7 +5318,7 @@
 	)
 	(symbol
 		(lib_id "Pinky:MountingHole")
-		(at 170.18 23.622 0)
+		(at 170.18 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5329,7 +5329,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dd64f6f-fadd-49ee-8597-dc3eafed6409")
 		(property "Reference" "H1"
-			(at 172.72 22.3519 0)
+			(at 172.72 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5340,7 +5340,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 172.72 24.8919 0)
+			(at 172.72 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5351,7 +5351,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 170.18 23.622 0)
+			(at 170.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 23.622 0)
+			(at 170.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5373,7 +5373,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 170.18 23.622 0)
+			(at 170.18 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5975,82 +5975,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Pinky:MountingHole")
-		(at 170.18 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71703110-63b8-4119-83da-759c099f6741")
-		(property "Reference" "H5"
-			(at 172.72 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 172.72 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 170.18 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 170.18 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "pinky"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Pinky:Switch")
 		(at 119.38 69.85 0)
 		(unit 1)
@@ -6557,7 +6481,7 @@
 	)
 	(symbol
 		(lib_id "Pinky:MountingHole")
-		(at 170.18 42.926 0)
+		(at 170.18 47.244 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6568,7 +6492,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b8a12ea-b0d0-471c-a5bc-201dbda0b5fd")
 		(property "Reference" "H4"
-			(at 172.72 41.6559 0)
+			(at 172.72 45.9739 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6579,7 +6503,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 172.72 44.1959 0)
+			(at 172.72 48.5139 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6590,7 +6514,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 170.18 42.926 0)
+			(at 170.18 47.244 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6601,7 +6525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 42.926 0)
+			(at 170.18 47.244 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6612,7 +6536,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 170.18 42.926 0)
+			(at 170.18 47.244 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
