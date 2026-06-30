@@ -6521,6 +6521,7 @@
 		(property "Value" "MountingHole_2.2mm_M2"
 			(at 0 3.55 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "846bb0f9-caab-444e-aa66-5f9b5784c07a")
 			(effects
 				(font
@@ -6570,14 +6571,14 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
-			(center 0 0)
-			(end 2.2 0)
+			(center -0.01 -0.01)
+			(end 2.44 -0.01)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
-			(layer "Cmts.User")
+			(layer "B.CrtYd")
 			(uuid "824bf9be-cd2c-4ab7-8842-76df6ed72469")
 		)
 		(fp_circle
@@ -8030,6 +8031,7 @@
 		(property "Value" "MountingHole_2.2mm_M2"
 			(at 0 3.55 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2e3e34da-4206-4391-94ff-36110d286677")
 			(effects
 				(font
@@ -8079,14 +8081,14 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
-			(center 0 0)
-			(end 2.2 0)
+			(center -0.01 -0.01)
+			(end 2.44 -0.01)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
-			(layer "Cmts.User")
+			(layer "B.CrtYd")
 			(uuid "f5fdbe12-8908-4b4e-99cf-dfba67105b79")
 		)
 		(fp_circle
@@ -13259,6 +13261,7 @@
 		(property "Value" "MountingHole_2.2mm_M2"
 			(at 0 3.55 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "164bef3c-61a2-4e4f-9a43-2390e8a31194")
 			(effects
 				(font
@@ -13308,14 +13311,14 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
-			(center 0 0)
-			(end 2.2 0)
+			(center -0.01 -0.01)
+			(end 2.44 -0.01)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
-			(layer "Cmts.User")
+			(layer "B.CrtYd")
 			(uuid "8ce025a1-9853-4cfa-8a57-0f90476397e9")
 		)
 		(fp_circle
@@ -15824,6 +15827,7 @@
 		(property "Value" "MountingHole_2.2mm_M2"
 			(at 0 3.55 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "df02b32d-6331-474d-a8c4-4c15aea6c52f")
 			(effects
 				(font
@@ -15873,14 +15877,14 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
-			(center 0 0)
-			(end 2.2 0)
+			(center -0.01 -0.01)
+			(end 2.44 -0.01)
 			(stroke
-				(width 0.15)
+				(width 0.05)
 				(type solid)
 			)
 			(fill no)
-			(layer "Cmts.User")
+			(layer "B.CrtYd")
 			(uuid "f89ddfd4-8c5b-4ab4-8c95-e6e9a5e87dd0")
 		)
 		(fp_circle
