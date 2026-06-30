@@ -350,41 +350,27 @@
 			(layer "B.SilkS")
 			(uuid "b11f5795-2f79-4d01-97d8-a24f927651f9")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_A")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "9070bca9-a676-4d3a-91d7-51403299700a")
 		)
-		(pad "1" smd rect
-			(at -1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "row_A")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "f723aa3c-7ac1-478f-b6e6-22a9851d937e")
-		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D9-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "2fe84999-6ed1-4fd9-9294-4350e080afad")
-		)
-		(pad "2" smd rect
-			(at 1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D9-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "a5bd73b4-4d04-485f-9d50-5dd4dd460877")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -538,41 +524,27 @@
 			(layer "B.SilkS")
 			(uuid "df000b52-2ae1-4041-914a-d30bffcfac7c")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_C")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "00bfd5a4-d262-4680-9d8b-c0c7ff191389")
 		)
-		(pad "1" smd rect
-			(at -1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "row_C")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "8f85fbcc-a000-41bf-aff1-cf848c6d2b33")
-		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D7-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "6feaf89b-3010-4a57-b490-4d2a4dd30ad7")
-		)
-		(pad "2" smd rect
-			(at 1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D7-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "6767e41a-87bd-402b-85d5-9272be843e46")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -2049,41 +2021,27 @@
 			(layer "B.SilkS")
 			(uuid "bc48edde-ea9a-48bf-a616-18f25aca95f0")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0 350)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "row_A")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "337508d6-2050-46c4-934a-d294764aa4c9")
-		)
-		(pad "1" smd rect
-			(at -1.7 0 350)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_A")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "b2a0018f-bc4f-4c92-9552-a706cb21ae5a")
 		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0 350)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D15-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "1c2ed102-ee9c-42c9-b406-0faafb7b4345")
-		)
-		(pad "2" smd rect
-			(at 1.7 0 350)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D15-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "4847a886-1d5a-4bcf-8e8e-b70d67e93f0e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -2489,7 +2447,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000002 -1.5)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -2558,7 +2516,7 @@
 			(uuid "7327bb88-63f9-4991-bf77-1802b56e003e")
 		)
 		(fp_line
-			(start 7.000002 -1.5)
+			(start 7.000001 -1.5)
 			(end 7 -2.35)
 			(stroke
 				(width 0.1)
@@ -2701,7 +2659,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -8.75 -8.250002) (xy 8.75 -8.25) (xy 8.75 8.250002) (xy -8.75 8.25)
+				(xy -8.75 -8.250001) (xy 8.75 -8.25) (xy 8.75 8.250001) (xy -8.75 8.25)
 			)
 			(stroke
 				(width 0.1)
@@ -2713,7 +2671,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -8.75 -8.250002) (xy 8.75 -8.25) (xy 8.75 8.250002) (xy -8.75 8.25)
+				(xy -8.75 -8.250001) (xy 8.75 -8.25) (xy 8.75 8.250001) (xy -8.75 8.25)
 			)
 			(stroke
 				(width 0.1)
@@ -2815,7 +2773,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000002 -1.5)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -2854,7 +2812,7 @@
 			(uuid "5593ab3b-6421-48a3-bbeb-a24169dd8e79")
 		)
 		(fp_line
-			(start 7.000002 -1.5)
+			(start 7.000001 -1.5)
 			(end 7 -6.2)
 			(stroke
 				(width 0.1)
@@ -2950,7 +2908,7 @@
 			(uuid "ef067395-0594-4016-bbc4-ad6a9356d682")
 		)
 		(fp_line
-			(start -9.55 -2.499998)
+			(start -9.55 -2.499999)
 			(end -7 -2.5)
 			(stroke
 				(width 0.1)
@@ -2961,7 +2919,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.55 -2.499998)
+			(end -9.55 -2.499999)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -3110,7 +3068,7 @@
 			(uuid "af450198-f957-4785-a515-d2c50fb6cfac")
 		)
 		(fp_line
-			(start 4.549998 -5.957)
+			(start 4.549999 -5.957)
 			(end 4.55 -7.228)
 			(stroke
 				(width 0.1)
@@ -4799,41 +4757,27 @@
 			(layer "B.SilkS")
 			(uuid "43073a1b-b34e-433f-8f23-16d67423437f")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_B")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "f34ac9f2-b4b3-46bd-82e4-cff27dececeb")
 		)
-		(pad "1" smd rect
-			(at -1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "row_B")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "2c78f7b7-0b8c-4f9a-9abe-deb88fde5cfc")
-		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D2-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "75ba18f1-62cf-44ac-84b3-22aca6dc0189")
-		)
-		(pad "2" smd rect
-			(at 1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D2-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "3e7911dc-d373-485c-bb60-01e759e94dcd")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -4987,41 +4931,27 @@
 			(layer "B.SilkS")
 			(uuid "a52e3633-0ee4-4782-b165-8219c5f3105a")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "row_B")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "5cb3aa51-594c-4b9d-b803-0f8257b19cef")
-		)
-		(pad "1" smd rect
-			(at -1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_B")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "7c923958-7782-41f4-965a-87fce1f84063")
 		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D6-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "97de1d98-26e9-43da-8ee2-6e5559bf0e28")
-		)
-		(pad "2" smd rect
-			(at 1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D6-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "c2b2c243-6c27-4db8-b7a3-9894643fae3c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -5383,7 +5313,7 @@
 			(uuid "5561d723-cffe-45e0-a880-764cfd698dd3")
 		)
 		(fp_line
-			(start -7.000002 -6)
+			(start -7.000001 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -5413,7 +5343,7 @@
 			(uuid "9c1a1d16-aed0-4046-ad25-2132f0a4f39d")
 		)
 		(fp_line
-			(start -6 7.000002)
+			(start -6 7.000001)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -5523,7 +5453,7 @@
 			(uuid "ebcf4a89-a173-4b67-b34d-95de57357077")
 		)
 		(fp_line
-			(start 6 -7.000002)
+			(start 6 -7.000001)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -5543,7 +5473,7 @@
 			(uuid "e330ee68-faee-4d06-89d8-c7a341a128e8")
 		)
 		(fp_line
-			(start 7.000002 6)
+			(start 7.000001 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -5595,7 +5525,7 @@
 			(uuid "bbe6dd70-4693-484e-9fd7-a8969f9dcfda")
 		)
 		(fp_line
-			(start -7.000002 -6)
+			(start -7.000001 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -5615,7 +5545,7 @@
 			(uuid "690d928a-65bd-4540-8c8a-f88ba1134d88")
 		)
 		(fp_line
-			(start -6 7.000002)
+			(start -6 7.000001)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -5725,7 +5655,7 @@
 			(uuid "ba900e94-5854-4bab-81f1-4c5017f2ec5f")
 		)
 		(fp_line
-			(start 6 -7.000002)
+			(start 6 -7.000001)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -5745,7 +5675,7 @@
 			(uuid "3556fc5d-ee69-4384-86b5-cbeaa5f6690d")
 		)
 		(fp_line
-			(start 7.000002 6)
+			(start 7.000001 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -6147,7 +6077,7 @@
 			(uuid "bc67cdf6-b888-4c60-8c2f-db2c5a17499d")
 		)
 		(fp_line
-			(start -9.549998 -2.5)
+			(start -9.549999 -2.5)
 			(end -7 -2.5)
 			(stroke
 				(width 0.1)
@@ -6158,7 +6088,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.549998 -2.5)
+			(end -9.549999 -2.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -6773,41 +6703,27 @@
 			(layer "B.SilkS")
 			(uuid "8d4e9476-255d-4052-901d-3abd8b2c00a5")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0 350)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_C")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "10b719bb-0cb6-42cc-8adf-a04f5f54c399")
 		)
-		(pad "1" smd rect
-			(at -1.7 0 350)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "row_C")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "6478293e-af18-466c-bb64-c482fef00038")
-		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0 350)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D17-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "d27e4330-68b5-4ff1-bc0f-4ed0e485058c")
-		)
-		(pad "2" smd rect
-			(at 1.7 0 350)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D17-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "151c1cfd-53be-4f1b-8ab6-d24c8fff33e5")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -8244,7 +8160,7 @@
 			(uuid "36be91a6-8044-4ebf-9721-6a55c507003b")
 		)
 		(fp_line
-			(start -7.000002 -6)
+			(start -7.000001 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -8274,7 +8190,7 @@
 			(uuid "4e5a5802-4d89-4ae0-973f-a235b0b7db62")
 		)
 		(fp_line
-			(start -6 7.000002)
+			(start -6 7.000001)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -8384,7 +8300,7 @@
 			(uuid "01b4767b-e8b1-48da-bcd9-a982708090e5")
 		)
 		(fp_line
-			(start 6 -7.000002)
+			(start 6 -7.000001)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -8404,7 +8320,7 @@
 			(uuid "e7b1f096-efae-4185-8f7e-bec9c1be62d5")
 		)
 		(fp_line
-			(start 7.000002 6)
+			(start 7.000001 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -8456,7 +8372,7 @@
 			(uuid "c5bc07f9-8446-40c9-87a9-a34ee819a5e6")
 		)
 		(fp_line
-			(start -7.000002 -6)
+			(start -7.000001 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -8476,7 +8392,7 @@
 			(uuid "84e10ebe-795a-49e9-bb43-5e09dc784a67")
 		)
 		(fp_line
-			(start -6 7.000002)
+			(start -6 7.000001)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -8586,7 +8502,7 @@
 			(uuid "a37d0d59-a8f4-4789-9df3-eabc79479dc7")
 		)
 		(fp_line
-			(start 6 -7.000002)
+			(start 6 -7.000001)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -8606,7 +8522,7 @@
 			(uuid "5222611c-33ad-469a-9e47-93f7ea8a4a4f")
 		)
 		(fp_line
-			(start 7.000002 6)
+			(start 7.000001 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -9008,7 +8924,7 @@
 			(uuid "a17cde1c-abdb-4f15-bc9f-66b671723cbb")
 		)
 		(fp_line
-			(start -9.549998 -2.5)
+			(start -9.549999 -2.5)
 			(end -7 -2.5)
 			(stroke
 				(width 0.1)
@@ -9019,7 +8935,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.549998 -2.5)
+			(end -9.549999 -2.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -9483,7 +9399,7 @@
 			(uuid "36e6412f-20b9-49ce-8b66-210416803276")
 		)
 		(fp_line
-			(start -7.000002 -6)
+			(start -7.000001 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -9513,7 +9429,7 @@
 			(uuid "bed2fe95-6dba-4ebe-bc9c-a19e14f15a00")
 		)
 		(fp_line
-			(start -6 7.000002)
+			(start -6 7.000001)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -9623,7 +9539,7 @@
 			(uuid "34ffbebd-dcc6-461a-a653-d0b19ed0a487")
 		)
 		(fp_line
-			(start 6 -7.000002)
+			(start 6 -7.000001)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -9643,7 +9559,7 @@
 			(uuid "1e483cf8-9e9a-4977-b975-9c07821e4ae7")
 		)
 		(fp_line
-			(start 7.000002 6)
+			(start 7.000001 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -9695,7 +9611,7 @@
 			(uuid "068b569b-f893-40b2-8f66-18f95af450f7")
 		)
 		(fp_line
-			(start -7.000002 -6)
+			(start -7.000001 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -9715,7 +9631,7 @@
 			(uuid "0cfc3231-4efa-466e-a4a7-253767765343")
 		)
 		(fp_line
-			(start -6 7.000002)
+			(start -6 7.000001)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -9825,7 +9741,7 @@
 			(uuid "a9408896-f0fc-4d55-ab3d-5d7d357e4d87")
 		)
 		(fp_line
-			(start 6 -7.000002)
+			(start 6 -7.000001)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -9845,7 +9761,7 @@
 			(uuid "2aa23d84-35dd-4dd4-97ea-7558946cd426")
 		)
 		(fp_line
-			(start 7.000002 6)
+			(start 7.000001 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -10247,7 +10163,7 @@
 			(uuid "fdb1b71b-b0e0-4fa2-8a62-cb872b756ddb")
 		)
 		(fp_line
-			(start -9.549998 -2.5)
+			(start -9.549999 -2.5)
 			(end -7 -2.5)
 			(stroke
 				(width 0.1)
@@ -10258,7 +10174,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.549998 -2.5)
+			(end -9.549999 -2.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12026,7 +11942,7 @@
 			(uuid "f6a19b91-19b9-47b3-b9e9-565fc0b11661")
 		)
 		(fp_line
-			(start -1.5 -8.200002)
+			(start -1.5 -8.200001)
 			(end -2 -7.7)
 			(stroke
 				(width 0.1)
@@ -12037,7 +11953,7 @@
 		)
 		(fp_line
 			(start 1.5 -8.2)
-			(end -1.5 -8.200002)
+			(end -1.5 -8.200001)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12209,7 +12125,7 @@
 		)
 		(fp_line
 			(start -2 -7.7)
-			(end -1.5 -8.200002)
+			(end -1.5 -8.200001)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12218,7 +12134,7 @@
 			(uuid "4b154485-5b61-4186-a4b3-64f838264132")
 		)
 		(fp_line
-			(start -1.5 -8.200002)
+			(start -1.5 -8.200001)
 			(end 1.5 -8.2)
 			(stroke
 				(width 0.1)
@@ -12229,7 +12145,7 @@
 		)
 		(fp_line
 			(start -2 -4.2)
-			(end -2 -4.550002)
+			(end -2 -4.550001)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -12525,7 +12441,7 @@
 		)
 		(fp_line
 			(start -2 -7.7)
-			(end -1.5 -8.200002)
+			(end -1.5 -8.200001)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12544,7 +12460,7 @@
 			(uuid "7f5f7e46-3911-4c82-bbfd-d2743b79366b")
 		)
 		(fp_line
-			(start -1.5 -8.200002)
+			(start -1.5 -8.200001)
 			(end 1.5 -8.2)
 			(stroke
 				(width 0.1)
@@ -12635,7 +12551,7 @@
 		)
 		(fp_line
 			(start 7 -5)
-			(end 9.55 -4.999998)
+			(end 9.55 -4.999999)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12654,7 +12570,7 @@
 			(uuid "32d45800-fc5c-450e-a7a6-c2c9fe5d35b2")
 		)
 		(fp_line
-			(start 9.55 -4.999998)
+			(start 9.55 -4.999999)
 			(end 9.55 -2.5)
 			(stroke
 				(width 0.1)
@@ -12800,7 +12716,7 @@
 			(uuid "fa0bbf59-28e6-4d6d-83ec-336c27df2c8b")
 		)
 		(fp_line
-			(start -1.5 -8.200002)
+			(start -1.5 -8.200001)
 			(end -2 -7.7)
 			(stroke
 				(width 0.1)
@@ -12811,7 +12727,7 @@
 		)
 		(fp_line
 			(start 1.5 -8.2)
-			(end -1.5 -8.200002)
+			(end -1.5 -8.200001)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12850,7 +12766,7 @@
 			(uuid "c279d1ef-b18d-48df-b73e-104757a0fa18")
 		)
 		(fp_line
-			(start 1.999998 -4.25)
+			(start 1.999999 -4.25)
 			(end 2 -7.7)
 			(stroke
 				(width 0.1)
@@ -12881,7 +12797,7 @@
 		)
 		(fp_line
 			(start 4.54 -5.95)
-			(end 3.281 -4.690998)
+			(end 3.281 -4.690999)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -13246,41 +13162,27 @@
 			(layer "B.SilkS")
 			(uuid "7a45fcbf-ac76-41d0-ad18-b74703d63d13")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "row_B")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "64c00cd3-5a5d-4335-b58d-a95951e293a0")
-		)
-		(pad "1" smd rect
-			(at -1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_B")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "83299daa-b315-4ea3-b385-25fbd053fd50")
 		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D10-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "333bc3e1-7d26-4416-9b3a-3146a2623ede")
-		)
-		(pad "2" smd rect
-			(at 1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D10-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "8a753d31-ce33-487a-8362-9c62c17a4ad3")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -13534,37 +13436,23 @@
 			(layer "B.SilkS")
 			(uuid "5f92213e-5e1d-40e0-9c38-31478264caba")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0 356)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_B")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "1ea95213-e571-4f8a-95e3-2749a119097a")
 		)
-		(pad "1" smd rect
-			(at -1.7 0 356)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "row_B")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "f19cc8a8-7a2d-49c8-9d75-ff0604e01b28")
-		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0 356)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(D13-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "b058e489-9ed6-4bcb-8058-90cc73dc6831")
-		)
-		(pad "2" smd rect
-			(at 1.7 0 356)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D13-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
@@ -14044,41 +13932,27 @@
 			(layer "B.SilkS")
 			(uuid "3aeb57a0-fc59-455e-b599-6c75297d6a13")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0 350)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_B")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "df19f304-9891-4f3e-94f8-12fc2949a01a")
 		)
-		(pad "1" smd rect
-			(at -1.7 0 350)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "row_B")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "f61b85d1-0662-4acf-aa61-2c039a4b3c7a")
-		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0 350)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D16-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "350976ae-85a8-400e-b137-dcebe36d6641")
-		)
-		(pad "2" smd rect
-			(at 1.7 0 350)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D16-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "e905d99a-e79d-41b4-b06f-6e9534d9893b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -14232,41 +14106,27 @@
 			(layer "B.SilkS")
 			(uuid "42a103be-fb63-4931-8186-ec9653233e1d")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_C")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "31b33428-f797-436e-9e75-fe7d912a2187")
 		)
-		(pad "1" smd rect
-			(at -1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "row_C")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "2f639441-3c51-4d47-a24c-2ad9202301bb")
-		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D11-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "381c14bd-2765-4a7d-9957-20c9027a69cc")
-		)
-		(pad "2" smd rect
-			(at 1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D11-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "52f846be-2bf3-4137-8e8c-de2373d2a099")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -14342,7 +14202,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.45 -0.7)
-			(end -0.45 0.700002)
+			(end -0.45 0.700001)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14352,7 +14212,7 @@
 		)
 		(fp_line
 			(start -0.45 0)
-			(end 0.45 -0.700002)
+			(end 0.45 -0.700001)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14361,7 +14221,7 @@
 			(uuid "0565eab0-3b3a-4168-80cf-bd999a21623d")
 		)
 		(fp_line
-			(start 0.45 -0.700002)
+			(start 0.45 -0.700001)
 			(end 0.45 0.7)
 			(stroke
 				(width 0.15)
@@ -14382,7 +14242,7 @@
 		)
 		(fp_line
 			(start -0.45 -0.7)
-			(end -0.45 0.700002)
+			(end -0.45 0.700001)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14392,7 +14252,7 @@
 		)
 		(fp_line
 			(start -0.45 0)
-			(end 0.45 -0.700002)
+			(end 0.45 -0.700001)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14401,7 +14261,7 @@
 			(uuid "7aae4ce2-991b-4bac-8c08-9d6d53e2014d")
 		)
 		(fp_line
-			(start 0.45 -0.700002)
+			(start 0.45 -0.700001)
 			(end 0.45 0.7)
 			(stroke
 				(width 0.15)
@@ -14420,41 +14280,27 @@
 			(layer "B.SilkS")
 			(uuid "39ba230e-d5a0-49d4-86d6-fedc388c184f")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0 8)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_D")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "407f9b0d-8107-49ad-b302-7266f3608bac")
 		)
-		(pad "1" smd rect
-			(at -1.7 0 8)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "row_D")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "37a05bab-771c-41f8-8527-b81360e78b76")
-		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0 8)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D4-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "65751023-09ea-4e22-9b40-2d0d0a0bd300")
-		)
-		(pad "2" smd rect
-			(at 1.7 0 8)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D4-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "144ba8ce-50ad-48d5-b8b2-6da004abf8c7")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -14697,41 +14543,27 @@
 			(layer "B.SilkS")
 			(uuid "37b51ce5-8f2d-40b4-8305-7bd2e3b517df")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0 4)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "row_D")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "6f7a2de2-da4e-47a5-9a74-bc8fc5c071a3")
-		)
-		(pad "1" smd rect
-			(at -1.7 0 4)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_D")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "aff5170f-2ccc-452c-8555-eaca7a943899")
 		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0 4)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D8-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "c8fa0c5f-8d8c-4c03-b783-76ca79314501")
-		)
-		(pad "2" smd rect
-			(at 1.7 0 4)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D8-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "960eafdc-3df4-4029-b1ba-c71695615d96")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -15137,7 +14969,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000002 -1.5)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -15206,7 +15038,7 @@
 			(uuid "0ed5a47e-e569-42cf-ab2b-1cc86b4502cb")
 		)
 		(fp_line
-			(start 7.000002 -1.5)
+			(start 7.000001 -1.5)
 			(end 7 -2.35)
 			(stroke
 				(width 0.1)
@@ -15349,7 +15181,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -8.75 -8.250002) (xy 8.75 -8.25) (xy 8.75 8.250002) (xy -8.75 8.25)
+				(xy -8.75 -8.250001) (xy 8.75 -8.25) (xy 8.75 8.250001) (xy -8.75 8.25)
 			)
 			(stroke
 				(width 0.1)
@@ -15361,7 +15193,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -8.75 -8.250002) (xy 8.75 -8.25) (xy 8.75 8.250002) (xy -8.75 8.25)
+				(xy -8.75 -8.250001) (xy 8.75 -8.25) (xy 8.75 8.250001) (xy -8.75 8.25)
 			)
 			(stroke
 				(width 0.1)
@@ -15463,7 +15295,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000002 -1.5)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -15502,7 +15334,7 @@
 			(uuid "ecfb794b-bb00-48bb-80b4-f4cbb835cc35")
 		)
 		(fp_line
-			(start 7.000002 -1.5)
+			(start 7.000001 -1.5)
 			(end 7 -6.2)
 			(stroke
 				(width 0.1)
@@ -15598,7 +15430,7 @@
 			(uuid "ed292700-9923-4ce8-9ff0-c5e47cfc806f")
 		)
 		(fp_line
-			(start -9.55 -2.499998)
+			(start -9.55 -2.499999)
 			(end -7 -2.5)
 			(stroke
 				(width 0.1)
@@ -15609,7 +15441,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.55 -2.499998)
+			(end -9.55 -2.499999)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -15758,7 +15590,7 @@
 			(uuid "71e8b74d-06f8-4f00-a09a-8d24be796676")
 		)
 		(fp_line
-			(start 4.549998 -5.957)
+			(start 4.549999 -5.957)
 			(end 4.55 -7.228)
 			(stroke
 				(width 0.1)
@@ -16224,41 +16056,27 @@
 			(layer "B.SilkS")
 			(uuid "97653325-99f8-4637-b1af-ac0e0430d693")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_A")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "17d1e652-e6db-4722-a282-d16904928643")
 		)
-		(pad "1" smd rect
-			(at -1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "row_A")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "aa1e1456-d142-41b0-b4ec-b860553f5b7c")
-		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D5-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "3681024f-22dd-42d4-83c1-a64243b15c44")
-		)
-		(pad "2" smd rect
-			(at 1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D5-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "b6102554-c333-4263-894c-97c78430d13b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -19058,41 +18876,27 @@
 			(layer "B.SilkS")
 			(uuid "c1a98a99-c0c7-4ef2-aab3-221e06c07f9b")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_A")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "4db8f576-4405-4036-b51c-e0d946958e30")
 		)
-		(pad "1" smd rect
-			(at -1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "row_A")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "30dec37c-c76b-4db4-b967-6939811105ce")
-		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D1-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "d4e6293c-9051-48ef-af86-051172ddd58a")
-		)
-		(pad "2" smd rect
-			(at 1.7 0)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D1-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "6eb78b49-c5e3-43de-92fc-6e386adca1dd")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -19246,41 +19050,27 @@
 			(layer "B.SilkS")
 			(uuid "8ef6f069-6fda-40e5-a712-996ce82dce30")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0 356)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "row_A")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "ac4f1365-9ff7-4832-8cd0-4645f73c110b")
-		)
-		(pad "1" smd rect
-			(at -1.7 0 356)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_A")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "3b3b3c61-1fd3-4e48-8b8f-d5f991410a3c")
 		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0 356)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D12-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "39e6de33-71ea-4e58-b10d-8622d453e4a1")
-		)
-		(pad "2" smd rect
-			(at 1.7 0 356)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D12-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "a6dc1549-4727-4455-8510-91430bdf8de1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -20607,7 +20397,7 @@
 			(uuid "9bc38002-302a-4032-a287-6dcbbeedccdd")
 		)
 		(fp_line
-			(start -6.999998 -6)
+			(start -6.999999 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -20647,7 +20437,7 @@
 			(uuid "0cea58b1-1a69-4bc1-94da-d0b740ae1a61")
 		)
 		(fp_line
-			(start -6 6.999998)
+			(start -6 6.999999)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -20757,7 +20547,7 @@
 			(uuid "9a8cc02b-10f7-46f5-8fbf-dd8cd5d1fdce")
 		)
 		(fp_line
-			(start 6 -6.999998)
+			(start 6 -6.999999)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -20777,7 +20567,7 @@
 			(uuid "058124c5-19b6-40e4-bb59-e1a2927e50b4")
 		)
 		(fp_line
-			(start 6.999998 6)
+			(start 6.999999 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -20829,7 +20619,7 @@
 			(uuid "0a321a7d-66b1-410c-83b9-94dcfa452ca7")
 		)
 		(fp_line
-			(start -6.999998 -6)
+			(start -6.999999 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -20849,7 +20639,7 @@
 			(uuid "c7020abd-5f72-4358-944e-790f6bac1951")
 		)
 		(fp_line
-			(start -6 6.999998)
+			(start -6 6.999999)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -20910,7 +20700,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999998 -3.7)
+			(end 0.999999 -3.7)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -20959,7 +20749,7 @@
 			(uuid "6d09d230-9d9b-4f56-955a-9a4b4f105a4b")
 		)
 		(fp_line
-			(start 6 -6.999998)
+			(start 6 -6.999999)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -21009,7 +20799,7 @@
 			(uuid "19d769b5-2ef3-4fdb-a711-298b068871f5")
 		)
 		(fp_line
-			(start 6.999998 6)
+			(start 6.999999 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -21029,7 +20819,7 @@
 			(uuid "001b2fc7-a6b8-48f0-8538-d3fb03b1c196")
 		)
 		(fp_arc
-			(start 0.999998 -3.7)
+			(start 0.999999 -3.7)
 			(mid 2.06066 -3.26066)
 			(end 2.5 -2.2)
 			(stroke
@@ -21236,7 +21026,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999998 -3.7)
+			(end 0.999999 -3.7)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -21335,7 +21125,7 @@
 			(uuid "e217b02f-86e9-4644-9853-f3b979d54854")
 		)
 		(fp_arc
-			(start 0.999998 -3.7)
+			(start 0.999999 -3.7)
 			(mid 2.06066 -3.26066)
 			(end 2.5 -2.2)
 			(stroke
@@ -23322,41 +23112,27 @@
 			(layer "B.SilkS")
 			(uuid "7135ec38-04a5-40a7-90ed-1f92693df47f")
 		)
-		(pad "1" smd rect
+		(pad "1" thru_hole rect
 			(at -1.7 0 356)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "row_C")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "d7bd06f4-885b-4075-bb43-cc9297607c33")
-		)
-		(pad "1" smd rect
-			(at -1.7 0 356)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "row_C")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "403ae3ea-fc19-47e3-9910-bb759fca9df6")
 		)
-		(pad "2" smd rect
+		(pad "2" thru_hole rect
 			(at 1.7 0 356)
 			(size 1.8 1.5)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(drill 0.3)
+			(layers "*.Cu" "*.Paste" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D14-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "36e07a03-cfd8-456f-bfa5-d94c1b16cc16")
-		)
-		(pad "2" smd rect
-			(at 1.7 0 356)
-			(size 1.8 1.5)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(D14-A)")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "f6879a73-1a99-4086-8dab-9214d21224b1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -23762,7 +23538,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000002 -1.5)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -23831,7 +23607,7 @@
 			(uuid "a05c638f-3f72-42c0-91f2-40c1cb3a481e")
 		)
 		(fp_line
-			(start 7.000002 -1.5)
+			(start 7.000001 -1.5)
 			(end 7 -2.35)
 			(stroke
 				(width 0.1)
@@ -23974,7 +23750,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -8.75 -8.250002) (xy 8.75 -8.25) (xy 8.75 8.250002) (xy -8.75 8.25)
+				(xy -8.75 -8.250001) (xy 8.75 -8.25) (xy 8.75 8.250001) (xy -8.75 8.25)
 			)
 			(stroke
 				(width 0.1)
@@ -23986,7 +23762,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -8.75 -8.250002) (xy 8.75 -8.25) (xy 8.75 8.250002) (xy -8.75 8.25)
+				(xy -8.75 -8.250001) (xy 8.75 -8.25) (xy 8.75 8.250001) (xy -8.75 8.25)
 			)
 			(stroke
 				(width 0.1)
@@ -24088,7 +23864,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000002 -1.5)
+			(end 7.000001 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -24127,7 +23903,7 @@
 			(uuid "4a62c6d5-9ea7-4fe8-863f-e6fb598710ef")
 		)
 		(fp_line
-			(start 7.000002 -1.5)
+			(start 7.000001 -1.5)
 			(end 7 -6.2)
 			(stroke
 				(width 0.1)
@@ -24223,7 +23999,7 @@
 			(uuid "5cdf2d8b-ae1a-4d55-b384-4427d520c427")
 		)
 		(fp_line
-			(start -9.55 -2.499998)
+			(start -9.55 -2.499999)
 			(end -7 -2.5)
 			(stroke
 				(width 0.1)
@@ -24234,7 +24010,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.55 -2.499998)
+			(end -9.55 -2.499999)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -24383,7 +24159,7 @@
 			(uuid "61098ff1-a305-4d78-8e82-97f27f9da656")
 		)
 		(fp_line
-			(start 4.549998 -5.957)
+			(start 4.549999 -5.957)
 			(end 4.55 -7.228)
 			(stroke
 				(width 0.1)
